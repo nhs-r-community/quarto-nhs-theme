@@ -1,6 +1,6 @@
 # Introduction
 
-Documentation on the use of Quarto for standard programme reporting at NHS England.
+Documentation on the use of Quarto.
 
 ## Acknowledements {.unnumbered}
 

@@ -9,7 +9,7 @@ on:
     # run every day at 11 PM
     - cron: '0 23 * * *'
 
-name: Render and deploy webpage to Netlify
+name: Render and deploy
 
 env:
   isExtPR: ${{ github.event.pull_request.head.repo.fork == true }}
@@ -36,24 +36,21 @@ jobs:
         with:
           cache-version: 2
 
+      - name: Install Python and Dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - run: pip install jupyter
+      - run: pip install -r requirements.txt
+
       - name: Render page
         run: |
           quarto render
 
-      - name: Deploy to Netlify
-        if: contains(env.isExtPR, 'false')
-        id: netlify-deploy
-        uses: nwtgck/actions-netlify@v1
-        with:
-          # The folder the action should deploy. Adapt if you changed in Quarto config
-          publish-dir: './_site'
-          production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message:
-            'Deploy from GHA: ${{ github.event.pull_request.title || github.event.head_commit.message }} (${{ github.sha }})'
-          enable-pull-request-comment: false #  Comment on pull request
-          enable-commit-comment: false # Comment on GitHub commit
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+    - name: Publish to GitHub Pages (and render)
+      uses: quarto-dev/quarto-actions/publish@v2
+      with:
+        target: gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions

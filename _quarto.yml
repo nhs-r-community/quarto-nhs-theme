@@ -1,28 +1,28 @@
 project:
   type: website
-  resources:
-    - "images/twitter-card.png"
-    - "course-materials/_slides/"
+  # resources:
+  #   - "images/twitter-card.png"
+  #   - "course-materials/_slides/"
     
 website:
   page-navigation: true
-  title: "Data Science in a Box"
-  author: "Mine Çetinkaya-Rundel"
-  description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
+  title: "Quarto NHS Theme"
+  author: "Craig Shenton"
+  description: "NHS Theme"
   date: now
-  site-url: "https://datasciencebox.org/"
-  
-  repo-url: https://github.com/rstudio-education/datascience-box
+  site-url: https://craig-shenton.github.io/quarto-nhs-theme
+  favicon: _assets/favicon/favicon.ico
+  repo-url: https://github.com/craig-shenton/quarto-nhs-theme
   repo-actions: [edit, issue]
 
-  opengraph: true
-  twitter-card:
-    creator: "@minebocek"
-    image: "/images/twitter-card.png"
+  # opengraph: true
+  # twitter-card:
+  #   creator: "@minebocek"
+  #   image: "/images/twitter-card.png"
 
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    background: "#A7D5E8"
+    background: "#005eb8"
     right:
     - text: "License"
       href: LICENSE.md
@@ -30,86 +30,64 @@ website:
       href: CODE_OF_CONDUCT.md
 
   navbar:
-    background: "#A7D5E8"
-    logo: "images/dsbox.png"
+    background: "#005eb8"
+    logo: _assets/logos/logo-nhs.svg
     align: center
     title: false
     collapse-below: lg
  
     right:
       - icon: github
-        href: https://github.com/rstudio-education/datascience-box
+        href: https://github.com/craig-shenton/quarto-nhs-theme
         aria-label: GitHub
       - icon: cloud-fill
-        href: https://rstudio.cloud/spaces/1655/join?access_code=5rdjusfIYF5iI0Gum2vNsBDLdtdnIEELBkf2EivK
+        href: https://rstudio.cloud/
         aria-label: RStudio Cloud
 
     left:
       - text: "Overview"
         href: index.qmd
-      - text: "Hello #dsbox!"
-        href: hello.qmd
-      - text: "Content"
-        href: content.qmd
-      - text: "Infrastructure"
-        href: infrastructure.qmd
-      - text: "Design"
-        href: design.qmd
+      - text: "r-programming"
+        href: r-programming.qmd
+      - text: "r-visualisation"
+        href: r-visualisation.qmd
+      - text: "p-example"
+        href: p-example.qmd
 
   sidebar:
-    - id: hello-dsbox
-      title: "Hello #dsbox!"
+    - id: hello
+      title: "Hello!"
       style: "floating"
       collapse-level: 2
       align: left
       contents:
-        - href: hello.qmd
-        - href: 01-overview.qmd
-        - href: 01-design-principles.qmd
-        - href: 01-topics.qmd
-        - href: 01-tech-stack.qmd
-        - href: 01-community.qmd
+        - href: index.qmd
 
     - id: content
       title: "Content"
       contents:
-        - href: content.qmd
-        - href: 02-hello-world.qmd
-        - href: 02-exploring-data.qmd
-        - href: 02-ethics.qmd
-        - href: 02-making-rigorous-conclusions.qmd
-        - href: 02-looking-further.qmd
-        - href: 02-interactive-tutorials.qmd
-        - href: 02-project.qmd
-        - href: 02-exams.qmd
+        - href: index.qmd
 
     - id: infrastructure
       title: "Infrastructure"
       contents:
-        - href: infrastructure.qmd
-        - href: 03-access-r.qmd
-        - href: 03-version-control.qmd
-        - href: 03-discussion.qmd
-        - href: 03-sharing.qmd
-        - href: 03-alternative-setups.qmd
+        - href: index.qmd
 
     - id: design
       align: left
       contents:
-        - href: design.qmd
-        - href: 04-pedagogy.qmd
-        - href: 04-schedule.qmd
+        - href: index.qmd
 
 format:
   html:
     theme:
-      light: [cosmo, style/dsbox.scss]
-      dark: [cosmo, style/dsbox.scss, style/dark.scss]
+      light: [cosmo, _assets/style/dsbox.scss]
+      dark: [cosmo, assets/style/dsbox.scss, assets/style/dark.scss]
     toc: true
     code-copy: true
     code-overflow: wrap
     mainfont: "Atkinson Hyperlegible"
-    include-in-header: "style/fontawesome.html"
+    include-in-header: "assets/style/fontawesome.html"
 
 freeze: auto
 
