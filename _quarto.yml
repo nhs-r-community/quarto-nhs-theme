@@ -31,7 +31,7 @@ website:
 
   navbar:
     background: "#005eb8"
-    logo: _assets/logos/logo-nhs.svg
+    logo: _assets/logos/logo-nhs-200.png
     align: center
     title: false
     collapse-below: lg
@@ -51,17 +51,27 @@ website:
   sidebar:
     - id: nav
       style: "floating"
-      collapse-level: 2
-      align: left
-      contents:
-      - text: "Overview"
-        href: index.qmd
-      - text: "R Programming"
-        href: r-programming.qmd
-      - text: "R Visualisation"
-        href: r-visualisation.qmd
-      - text: "Python Example"
-        href: p-example.qmd
+    collapse-level: 3
+    align: left
+    contents:
+      - section: "Getting Started"
+        contents:
+          - text: "Introduction" 
+            file: index.qmd
+      - section: "R"
+        contents:
+          - text: "R-Language"
+            file: r-programming.qmd
+          - text: "Data Visualisation"
+            file: r-visualisation.qmd
+      - section: "Python"
+        contents:
+          - text: "Python Example"
+            file: p-example.qmd
+      - section: "Quarto"
+        contents:
+        - text: "Transition from R-Markdown"
+          file: transition-from-rmarkdown.qmd
 
 format:
   html:
