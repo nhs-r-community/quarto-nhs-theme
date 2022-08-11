@@ -12,7 +12,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt solid #a8a8a8;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/application-exercise.png");
+  background-image: url("_assets/icons/application-exercise.png");
 }
 
 .application-exercise:before {
@@ -44,7 +44,7 @@ $link-color: #4f7c8d;
   margin-left: 5px;
   border: 1pt solid #d8d8d8;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/book.png");
+  background-image: url("_assets/icons/book.png");
 }
 .reading:before {
   content: "Reading: ";
@@ -63,7 +63,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt solid #80D4E6;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/slide-deck.png");
+  background-image: url("_assets/icons/slide-deck.png");
 }
 
 .source {
@@ -85,7 +85,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt dotted #a8a8a8;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/microphone.png");
+  background-image: url("_assets/icons/microphone.png");
 }
 
 .video {
@@ -108,7 +108,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt solid #FFD748;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/lab.png");
+  background-image: url("_assets/icons/lab.png");
 }
 
 .homework{
@@ -117,7 +117,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt solid #F26BAA;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/hw.png");
+  background-image: url("_assets/icons/hw.png");
 }
 
 .instructions {
@@ -153,7 +153,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt solid #d8d8d8;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/tutorial.png");
+  background-image: url("_assets/icons/tutorial.png");
 }
 
 
@@ -163,7 +163,7 @@ $link-color: #4f7c8d;
   margin-left: 10px;
   border: 1pt solid #d8d8d8;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/exam.png");
+  background-image: url("_assets/icons/exam.png");
 }
 
 
@@ -172,7 +172,7 @@ $link-color: #4f7c8d;
   margin-bottom: 5px;
   margin-left: 5px;
   background: #ffffff 5px center/3em no-repeat;
-  background-image: url("style/icons/cloud.png");
+  background-image: url("_assets/icons/cloud.png");
 }
 .rstudio-cloud:before {
   content: "RStudio Cloud: ";
