@@ -2,6 +2,8 @@
 title: Python Example
 ---
 
+## Line plot example
+
 For a demonstration of a line plot on a polar axis, see @fig-polar.
 
 ```{python}
