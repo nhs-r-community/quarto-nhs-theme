@@ -1,0 +1,116 @@
+project:
+  type: website
+  resources:
+    - "images/twitter-card.png"
+    - "course-materials/_slides/"
+    
+website:
+  page-navigation: true
+  title: "Data Science in a Box"
+  author: "Mine Çetinkaya-Rundel"
+  description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
+  date: now
+  site-url: "https://datasciencebox.org/"
+  
+  repo-url: https://github.com/rstudio-education/datascience-box
+  repo-actions: [edit, issue]
+
+  opengraph: true
+  twitter-card:
+    creator: "@minebocek"
+    image: "/images/twitter-card.png"
+
+  page-footer:
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    background: "#A7D5E8"
+    right:
+    - text: "License"
+      href: LICENSE.md
+    - text: "Code of Conduct"
+      href: CODE_OF_CONDUCT.md
+
+  navbar:
+    background: "#A7D5E8"
+    logo: "images/dsbox.png"
+    align: center
+    title: false
+    collapse-below: lg
+ 
+    right:
+      - icon: github
+        href: https://github.com/rstudio-education/datascience-box
+        aria-label: GitHub
+      - icon: cloud-fill
+        href: https://rstudio.cloud/spaces/1655/join?access_code=5rdjusfIYF5iI0Gum2vNsBDLdtdnIEELBkf2EivK
+        aria-label: RStudio Cloud
+
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - text: "Hello #dsbox!"
+        href: hello.qmd
+      - text: "Content"
+        href: content.qmd
+      - text: "Infrastructure"
+        href: infrastructure.qmd
+      - text: "Design"
+        href: design.qmd
+
+  sidebar:
+    - id: hello-dsbox
+      title: "Hello #dsbox!"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - href: hello.qmd
+        - href: 01-overview.qmd
+        - href: 01-design-principles.qmd
+        - href: 01-topics.qmd
+        - href: 01-tech-stack.qmd
+        - href: 01-community.qmd
+
+    - id: content
+      title: "Content"
+      contents:
+        - href: content.qmd
+        - href: 02-hello-world.qmd
+        - href: 02-exploring-data.qmd
+        - href: 02-ethics.qmd
+        - href: 02-making-rigorous-conclusions.qmd
+        - href: 02-looking-further.qmd
+        - href: 02-interactive-tutorials.qmd
+        - href: 02-project.qmd
+        - href: 02-exams.qmd
+
+    - id: infrastructure
+      title: "Infrastructure"
+      contents:
+        - href: infrastructure.qmd
+        - href: 03-access-r.qmd
+        - href: 03-version-control.qmd
+        - href: 03-discussion.qmd
+        - href: 03-sharing.qmd
+        - href: 03-alternative-setups.qmd
+
+    - id: design
+      align: left
+      contents:
+        - href: design.qmd
+        - href: 04-pedagogy.qmd
+        - href: 04-schedule.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, style/dsbox.scss]
+      dark: [cosmo, style/dsbox.scss, style/dark.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+    include-in-header: "style/fontawesome.html"
+
+freeze: auto
+
+editor: visual
