@@ -51,27 +51,27 @@ website:
   sidebar:
     - id: nav
       style: "floating"
-    collapse-level: 3
-    align: left
-    contents:
-      - section: "Getting Started"
-        contents:
-          - text: "Introduction" 
-            file: index.qmd
-      - section: "R"
-        contents:
-          - text: "R-Language"
-            file: r-programming.qmd
-          - text: "Data Visualisation"
-            file: r-visualisation.qmd
-      - section: "Python"
-        contents:
-          - text: "Python Example"
-            file: p-example.qmd
-      - section: "Quarto"
-        contents:
-        - text: "Transition from R-Markdown"
-          file: transition-from-rmarkdown.qmd
+      collapse-level: 3
+      align: left
+      contents:
+        - section: "Getting Started"
+          contents:
+            - text: "Introduction" 
+              file: index.qmd
+        - section: "R"
+          contents:
+            - text: "R-Language"
+              file: r-programming.qmd
+            - text: "Data Visualisation"
+              file: r-visualisation.qmd
+        - section: "Python"
+          contents:
+            - text: "Python Example"
+              file: p-example.qmd
+        - section: "Quarto"
+          contents:
+          - text: "Transition from R-Markdown"
+            file: transition-from-rmarkdown.qmd
 
 format:
   html:
