@@ -33,7 +33,7 @@ website:
     background: "#005eb8"
     logo: _assets/logos/logo-nhs.svg
     align: center
-    title: false
+    title: "Quarto NHS Theme"
     collapse-below: lg
  
     right:
@@ -44,15 +44,15 @@ website:
         href: https://rstudio.cloud/
         aria-label: RStudio Cloud
 
-    left:
-      - text: "Overview"
-        href: index.qmd
-      - text: "r-programming"
-        href: r-programming.qmd
-      - text: "r-visualisation"
-        href: r-visualisation.qmd
-      - text: "p-example"
-        href: p-example.qmd
+    # left:
+    #   - text: "Overview"
+    #     href: index.qmd
+    #   - text: "r-programming"
+    #     href: r-programming.qmd
+    #   - text: "r-visualisation"
+    #     href: r-visualisation.qmd
+    #   - text: "p-example"
+    #     href: p-example.qmd
 
   sidebar:
     - id: hello
@@ -61,7 +61,14 @@ website:
       collapse-level: 2
       align: left
       contents:
-        - href: index.qmd
+      - text: "Overview"
+        href: index.qmd
+      - text: "r-programming"
+        href: r-programming.qmd
+      - text: "r-visualisation"
+        href: r-visualisation.qmd
+      - text: "p-example"
+        href: p-example.qmd
 
     - id: content
       title: "Content"
@@ -82,12 +89,12 @@ format:
   html:
     theme:
       light: [cosmo, _assets/style/dsbox.scss]
-      dark: [cosmo, assets/style/dsbox.scss, assets/style/dark.scss]
+      dark: [cosmo, _assets/style/dsbox.scss, _assets/style/dark.scss]
     toc: true
     code-copy: true
     code-overflow: wrap
     mainfont: "Atkinson Hyperlegible"
-    include-in-header: "assets/style/fontawesome.html"
+    include-in-header: "_assets/style/fontawesome.html"
 
 freeze: auto
 
