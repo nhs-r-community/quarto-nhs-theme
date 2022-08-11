@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto NHS Theme</title>
+<title>Quarto NHS Theme - Making shareable documents with Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,12 +70,16 @@ ul.task-list{list-style: none;}
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
     <img src="./_assets/logos/logo-nhs.svg" alt="">
-    <span class="navbar-title">Quarto NHS Theme</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Quarto NHS Theme</a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/craig-shenton/quarto-nhs-theme"><i class="bi bi-github" role="img" aria-label="GitHub">
@@ -83,7 +87,7 @@ ul.task-list{list-style: none;}
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://rstudio.cloud/"><i class="bi bi-cloud-fill" role="img" aria-label="RStudio Cloud">
+    <a class="nav-link" href="https://nhs-pycom.net/"><i class="bi bi-cloud-fill" role="img" aria-label="NHS Python Community">
 </i> 
  </a>
   </li>  
@@ -97,7 +101,7 @@ ul.task-list{list-style: none;}
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <h1 class="quarto-secondary-nav-title">Making shareable documents with Quarto</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -117,17 +121,17 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./r-programming.html" class="sidebar-item-text sidebar-link">r-programming</a>
+  <a href="./r-programming.html" class="sidebar-item-text sidebar-link">R Programming</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./r-visualisation.html" class="sidebar-item-text sidebar-link">r-visualisation</a>
+  <a href="./r-visualisation.html" class="sidebar-item-text sidebar-link">R Visualisation</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./p-example.html" class="sidebar-item-text sidebar-link">p-example</a>
+  <a href="./p-example.html" class="sidebar-item-text sidebar-link">Python Example</a>
   </div>
 </li>
     </ul>
@@ -139,27 +143,69 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#what-is-quarto" id="toc-what-is-quarto" class="nav-link" data-scroll-target="#what-is-quarto">What is Quarto?</a></li>
+  <li><a href="#what-is-this-tutorial" id="toc-what-is-this-tutorial" class="nav-link" data-scroll-target="#what-is-this-tutorial">What is this tutorial?</a></li>
+  <li><a href="#example-quarto-sites" id="toc-example-quarto-sites" class="nav-link" data-scroll-target="#example-quarto-sites">Example Quarto sites</a></li>
   <li><a href="#acknowledements" id="toc-acknowledements" class="nav-link" data-scroll-target="#acknowledements">Acknowledements</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/craig-shenton/quarto-nhs-theme/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/craig-shenton/quarto-nhs-theme/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Making shareable documents with Quarto</h1>
+<p class="subtitle lead">Create open-source tutorials, onboarding docs, and much more</p>
+</div>
 
 
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>Documentation on the use of Quarto.</p>
-<section id="acknowledements" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="acknowledements">Acknowledements</h2>
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<p>It’s possible to create beautiful documentation to share online with <a href="https://quarto.org">Quarto</a> that auto-updates with <a href="http://github.com">GitHub</a>. This is very new and incredibly cool. This tutorial is an example of a quarto website — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.</p>
+<p>Creating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that’s where we’ll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout.</p>
+</section>
+<section id="what-is-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-quarto">What is Quarto?</h2>
+<p>Quarto helps you have your ideas and your code in one place, and present it in a beautiful way.</p>
+<p><strong>Quarto unifies and extends the RMarkdown ecosystem</strong> - it unifies by combining the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system. And it extends in several ways: all features are possible beyond R too, including Python and Javascript. It also has more “guardrails”: accessibility and inclusion are centered in the design. Quarto is for people who love RMarkdown, and it’s for people who have never used RMarkdown.</p>
+<p>The ability for Quarto to streamline collaboration has been so cool and important for our <a href="https://nasa-openscapes.github.io/">NASA Openscapes</a> project. Quarto has been a common place for us to collaborate - across R and Python languages and coding expertise.</p>
+</section>
+<section id="what-is-this-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-this-tutorial">What is this tutorial?</h2>
+<p>This is a 1-hour tutorial that can be used to teach or as self-paced learning.</p>
+<p>We introduce Quarto by exploring this tutorial website, and practicing the basic Quarto workflow using different tools (GitHub browser, RStudio, and Jupyter) for editing your website.</p>
+<p>We’ll start off from the browser so you don’t need to install any additional software, however this approach is very limited and you will soon outgrow its capabilities. If you don’t already have a workflow to edit files and sync to GitHub from your computer, I recommend RStudio. You don’t need to know R to use RStudio, and it has powerful editor features that make for happy workflows.</p>
+<p><a href="https://quarto.org">Quarto.org</a> is the go-to place for full documentation and more tutorials!</p>
+</section>
+<section id="example-quarto-sites" class="level2">
+<h2 class="anchored" data-anchor-id="example-quarto-sites">Example Quarto sites</h2>
+<p>A few Quarto websites from Openscapes - so far we have been using Quarto for documentation using Quarto and Markdown files and Jupyter Notebooks.</p>
+<ul>
+<li><a href="https://openscapes.github.io/series">Champions Lessons Series</a></li>
+<li><a href="https://openscapes.github.io/approach-guide/">Openscapes Approach Guide</a><br>
+</li>
+<li><a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/">2021 NASA Cloud Hackathon</a></li>
+<li><a href="https://thefaylab.github.io/lab-manual/">Faylab Lab Manual</a></li>
+<li><a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/">A Quarto tip a day</a>, by Mine Çetinkaya-Rundel</li>
+</ul>
+</section>
+<section id="acknowledements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledements">Acknowledements</h2>
 <p>This website is built with <a href="https://quarto.org">Quarto</a>, the lovely icons by <a href="http://icons8.com/">icons8</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -368,7 +414,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./r-programming.html" class="pagination-link">
-        <span class="nav-page-text">r-programming</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">R Programming</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto NHS Theme – r-visualisation</title>
+<title>Quarto NHS Theme - Visualising Data in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -134,12 +134,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
     <img src="./_assets/logos/logo-nhs.svg" alt="">
-    <span class="navbar-title">Quarto NHS Theme</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Quarto NHS Theme</a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/craig-shenton/quarto-nhs-theme"><i class="bi bi-github" role="img" aria-label="GitHub">
@@ -147,7 +151,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://rstudio.cloud/"><i class="bi bi-cloud-fill" role="img" aria-label="RStudio Cloud">
+    <a class="nav-link" href="https://nhs-pycom.net/"><i class="bi bi-cloud-fill" role="img" aria-label="NHS Python Community">
 </i> 
  </a>
   </li>  
@@ -161,7 +165,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <h1 class="quarto-secondary-nav-title">Visualising Data in R</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -181,17 +185,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./r-programming.html" class="sidebar-item-text sidebar-link">r-programming</a>
+  <a href="./r-programming.html" class="sidebar-item-text sidebar-link">R Programming</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./r-visualisation.html" class="sidebar-item-text sidebar-link active">r-visualisation</a>
+  <a href="./r-visualisation.html" class="sidebar-item-text sidebar-link active">R Visualisation</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./p-example.html" class="sidebar-item-text sidebar-link">p-example</a>
+  <a href="./p-example.html" class="sidebar-item-text sidebar-link">Python Example</a>
   </div>
 </li>
     </ul>
@@ -203,16 +207,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#visualising-data-in-r" id="toc-visualising-data-in-r" class="nav-link active" data-scroll-target="#visualising-data-in-r">Visualising Data in R</a>
+  <li><a href="#nhs-r-plot-the-dots" id="toc-nhs-r-plot-the-dots" class="nav-link active" data-scroll-target="#nhs-r-plot-the-dots">NHS-R Plot-the-dots</a>
   <ul class="collapse">
-  <li><a href="#charts" id="toc-charts" class="nav-link" data-scroll-target="#charts">Charts</a>
-  <ul class="collapse">
-  <li><a href="#bar-charts" id="toc-bar-charts" class="nav-link" data-scroll-target="#bar-charts">Bar Charts</a></li>
-  <li><a href="#line-charts" id="toc-line-charts" class="nav-link" data-scroll-target="#line-charts">Line Charts</a></li>
-  <li><a href="#scatter-plots" id="toc-scatter-plots" class="nav-link" data-scroll-target="#scatter-plots">Scatter Plots</a></li>
-  <li><a href="#statistical-process-control" id="toc-statistical-process-control" class="nav-link" data-scroll-target="#statistical-process-control">Statistical Process Control</a></li>
-  </ul></li>
-  <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables">Tables</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
+  <li><a href="#example-chart" id="toc-example-chart" class="nav-link" data-scroll-target="#example-chart">Example Chart</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/craig-shenton/quarto-nhs-theme/edit/main/r-visualisation.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/craig-shenton/quarto-nhs-theme/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -220,28 +218,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Visualising Data in R</h1>
+</div>
 
 
-<section id="visualising-data-in-r" class="level1">
-<h1>Visualising Data in R</h1>
-<section id="charts" class="level2">
-<h2 class="anchored" data-anchor-id="charts">Charts</h2>
-<section id="bar-charts" class="level3">
-<h3 class="anchored" data-anchor-id="bar-charts">Bar Charts</h3>
-</section>
-<section id="line-charts" class="level3">
-<h3 class="anchored" data-anchor-id="line-charts">Line Charts</h3>
-</section>
-<section id="scatter-plots" class="level3">
-<h3 class="anchored" data-anchor-id="scatter-plots">Scatter Plots</h3>
-</section>
-<section id="statistical-process-control" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-process-control">Statistical Process Control</h3>
-<section id="nhs-r-plot-the-dots" class="level4">
-<h4 class="anchored" data-anchor-id="nhs-r-plot-the-dots">NHS-R Plot-the-dots</h4>
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="nhs-r-plot-the-dots" class="level2">
+<h2 class="anchored" data-anchor-id="nhs-r-plot-the-dots">NHS-R Plot-the-dots</h2>
 <p>The <a href="https://github.com/nhs-r-community/NHSRplotthedots">NHSR Plot the Dots</a> package is built by the <a href="https://nhsrcommunity.com">NHS-R community</a> to provide tools for drawing statistical process control (SPC) charts. The package supports the NHS England programme <a href="https://www.england.nhs.uk/publication/making-data-count/">‘Making Data Count’</a>. The programme encourages boards, managers, and analyst teams to present data in ways that show change over time, and drive better understanding of indicators than ‘RAG’ (red, amber, green) rated reports often present.</p>
-<section id="installation" class="level5">
-<h5 class="anchored" data-anchor-id="installation">Installation</h5>
+<section id="installation" class="level3">
+<h3 class="anchored" data-anchor-id="installation">Installation</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install from CRAN</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"NHSRplotthedots"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"rmarkdown"</span>)</span>
@@ -251,9 +248,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"https://github.com/nhs-r-community/NHSRplotthedots"</span>, <span class="at">build_vignettes =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The help-files, and vignette within this package tell you more about the possible options for controlling the charts</p>
 </section>
-</section>
-<section id="example-chart" class="level4">
-<h4 class="anchored" data-anchor-id="example-chart">Example Chart</h4>
+<section id="example-chart" class="level3">
+<h3 class="anchored" data-anchor-id="example-chart">Example Chart</h3>
 <p>Below is an example of the type of chart the package produces. The plot uses the <code>ae_attendances</code> dataset from the <code>{NHSRdatasets}</code> package and a bit of <code>{dplyr}</code> code to select some organisations.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(NHSRplotthedots)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(NHSRdatasets)</span>
@@ -269,11 +265,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">vignette</span>(<span class="st">"intro"</span>, <span class="at">package =</span> <span class="st">"NHSRplotthedots"</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">vignette</span>(<span class="at">package =</span> <span class="st">"NHSRplotthedots"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-</section>
-<section id="tables" class="level2">
-<h2 class="anchored" data-anchor-id="tables">Tables</h2>
 
 
 </section>
@@ -483,12 +474,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./r-programming.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">r-programming</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">R Programming</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./p-example.html" class="pagination-link">
-        <span class="nav-page-text">p-example</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">Python Example</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

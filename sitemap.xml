@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/r-programming.html</loc>
-    <lastmod>2022-08-11T22:22:28.832Z</lastmod>
+    <lastmod>2022-08-11T22:36:45.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/craig-shenton/quarto-nhs-theme/explore.html</loc>
+    <lastmod>2022-08-11T22:36:46.513Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/craig-shenton/quarto-nhs-theme/learning-more.html</loc>
+    <lastmod>2022-08-11T22:36:46.921Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2022-08-11T22:22:29.324Z</lastmod>
+    <lastmod>2022-08-11T22:36:47.369Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/LICENSE.html</loc>
-    <lastmod>2022-08-11T22:22:29.924Z</lastmod>
+    <lastmod>2022-08-11T22:36:47.973Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/r-visualisation.html</loc>
-    <lastmod>2022-08-11T22:22:30.472Z</lastmod>
+    <lastmod>2022-08-11T22:36:48.573Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/about.html</loc>
-    <lastmod>2022-08-11T22:22:30.808Z</lastmod>
+    <lastmod>2022-08-11T22:36:48.925Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/index.html</loc>
-    <lastmod>2022-08-11T22:22:31.136Z</lastmod>
+    <lastmod>2022-08-11T22:36:49.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/craig-shenton/quarto-nhs-theme/transition-from-rmarkdown.html</loc>
+    <lastmod>2022-08-11T22:36:50.245Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/craig-shenton/quarto-nhs-theme/p-example.html</loc>
-    <lastmod>2022-08-11T22:22:32.040Z</lastmod>
+    <lastmod>2022-08-11T22:36:51.297Z</lastmod>
   </url>
 </urlset>

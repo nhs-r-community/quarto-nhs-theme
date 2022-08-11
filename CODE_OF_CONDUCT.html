@@ -61,7 +61,7 @@ ul.task-list{list-style: none;}
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -69,12 +69,16 @@ ul.task-list{list-style: none;}
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
     <img src="./_assets/logos/logo-nhs.svg" alt="">
-    <span class="navbar-title">Quarto NHS Theme</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Quarto NHS Theme</a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/craig-shenton/quarto-nhs-theme"><i class="bi bi-github" role="img" aria-label="GitHub">
@@ -82,7 +86,7 @@ ul.task-list{list-style: none;}
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://rstudio.cloud/"><i class="bi bi-cloud-fill" role="img" aria-label="RStudio Cloud">
+    <a class="nav-link" href="https://nhs-pycom.net/"><i class="bi bi-cloud-fill" role="img" aria-label="NHS Python Community">
 </i> 
  </a>
   </li>  
@@ -94,10 +98,44 @@ ul.task-list{list-style: none;}
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Contributor Covenant Code of Conduct</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Overview</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./r-programming.html" class="sidebar-item-text sidebar-link">R Programming</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./r-visualisation.html" class="sidebar-item-text sidebar-link">R Visualisation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./p-example.html" class="sidebar-item-text sidebar-link">Python Example</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc">
@@ -125,7 +163,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contributor Covenant Code of Conduct</h1>
+<h1 class="title d-none d-lg-block">Contributor Covenant Code of Conduct</h1>
 </div>
 
 
@@ -421,7 +459,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="./LICENSE.html">License</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link active" href="./CODE_OF_CONDUCT.html" aria-current="page">Code of Conduct</a>
+    <a class="nav-link" href="./CODE_OF_CONDUCT.html">Code of Conduct</a>
   </li>  
 </ul>
     </div>
