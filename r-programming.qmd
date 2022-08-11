@@ -1,4 +1,6 @@
-# R Programming Language
+---
+title: R Programming Language
+---
 
 ## Resource List
 

@@ -33,7 +33,7 @@ website:
     background: "#005eb8"
     logo: _assets/logos/logo-nhs.svg
     align: center
-    title: "Quarto NHS Theme"
+    title: false
     collapse-below: lg
  
     right:
@@ -41,49 +41,27 @@ website:
         href: https://github.com/craig-shenton/quarto-nhs-theme
         aria-label: GitHub
       - icon: cloud-fill
-        href: https://rstudio.cloud/
-        aria-label: RStudio Cloud
+        href: https://nhs-pycom.net/
+        aria-label: NHS Python Community
 
-    # left:
-    #   - text: "Overview"
-    #     href: index.qmd
-    #   - text: "r-programming"
-    #     href: r-programming.qmd
-    #   - text: "r-visualisation"
-    #     href: r-visualisation.qmd
-    #   - text: "p-example"
-    #     href: p-example.qmd
+    left:
+      - text: "Quarto NHS Theme"
+        href: index.qmd
 
   sidebar:
-    - id: hello
-      title: "Hello!"
+    - id: nav
       style: "floating"
       collapse-level: 2
       align: left
       contents:
       - text: "Overview"
         href: index.qmd
-      - text: "r-programming"
+      - text: "R Programming"
         href: r-programming.qmd
-      - text: "r-visualisation"
+      - text: "R Visualisation"
         href: r-visualisation.qmd
-      - text: "p-example"
+      - text: "Python Example"
         href: p-example.qmd
-
-    - id: content
-      title: "Content"
-      contents:
-        - href: index.qmd
-
-    - id: infrastructure
-      title: "Infrastructure"
-      contents:
-        - href: index.qmd
-
-    - id: design
-      align: left
-      contents:
-        - href: index.qmd
 
 format:
   html:

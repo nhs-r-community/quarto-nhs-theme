@@ -1,4 +1,4 @@
-# Python Example
+# Python Example {python-example}
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.
 
