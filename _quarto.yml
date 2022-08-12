@@ -5,7 +5,6 @@ project:
   #   - "course-materials/_slides/"
     
 website:
-  number-sections: true
   page-navigation: true
   title: "Quarto NHS Theme"
   author: "Craig Shenton"
@@ -51,6 +50,7 @@ website:
 
   sidebar:
     - id: nav
+      number-sections: true
       style: "floating"
       collapse-level: 3
       align: left

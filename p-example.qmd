@@ -24,6 +24,8 @@ ax.grid(True)
 plt.show()
 ```
 
+## Callout Options
+
 :::{.callout-note}
 Note!
 :::
@@ -48,24 +50,30 @@ This is an example of a 'folded' caution callout that can be expanded by the use
 Important!
 :::
 
+## Two Column Div
+
 ::: {layout-ncol=2}
 
-![Markdown](_assets/img/markdown-logo.png){fig-alt="Markdown"}
+![<img src="_assets/img/markdown-logo.png" width="200"/>](_assets/img/markdown-logo.png){fig-alt="Markdown"}
 
-![R-Studio](_assets/img/RStudio-ball.svg){fig-alt="R-Studio"}
+![<img src="_assets/img/RStudio-ball.svg" width="200"/>](_assets/img/RStudio-ball.svg){fig-alt="R-Studio"}
 
 :::
 
+## Colour Text
+
 This is text with [special]{style="color:red;"} formatting.
+
+## Tabbed Div
 
 ::: {.panel-tabset}
 
-## Element 1
+## Markdown
 
-![Markdown](_assets/img/markdown-logo.png){fig-alt="Markdown"}
+![<img src="_assets/img/markdown-logo.png" width="200"/>](_assets/img/markdown-logo.png){fig-alt="Markdown"}
 
-## Element 2
+## R-Studio
 
-![R-Studio](_assets/img/RStudio-ball.svg){fig-alt="R-Studio"}
+![<img src="_assets/img/RStudio-ball.svg" width="200"/>](_assets/img/RStudio-ball.svg){fig-alt="R-Studio"}
 
 :::
