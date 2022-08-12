@@ -50,7 +50,6 @@ website:
 
   sidebar:
     - id: nav
-      number-sections: true
       style: "floating"
       collapse-level: 3
       align: left
@@ -82,7 +81,6 @@ format:
   html:
     theme:
       light: [cosmo, _assets/style/dsbox.scss]
-      dark: [cosmo, _assets/style/dsbox.scss, _assets/style/dark.scss]
     toc: true
     code-copy: true
     code-overflow: wrap
