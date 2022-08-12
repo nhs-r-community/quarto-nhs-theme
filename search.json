@@ -203,13 +203,6 @@
     "text": "Example Quarto sites\nA few Quarto websites from Openscapes - so far we have been using Quarto for documentation using Quarto and Markdown files and Jupyter Notebooks.\n\nChampions Lessons Series\nOpenscapes Approach Guide\n\n2021 NASA Cloud Hackathon\nFaylab Lab Manual\nA Quarto tip a day, by Mine Çetinkaya-Rundel"
   },
   {
-    "objectID": "index.html#acknowledements",
-    "href": "index.html#acknowledements",
-    "title": "Making shareable documents with Quarto",
-    "section": "Acknowledements",
-    "text": "Acknowledements\nThis website is built with Quarto, the lovely icons by icons8."
-  },
-  {
     "objectID": "p-example.html",
     "href": "p-example.html",
     "title": "Python Example",
