@@ -68,14 +68,6 @@ website:
           contents:
             - text: "Python Example"
               file: p-example.qmd
-        - section: "Quarto"
-          contents:
-          - text: "Explore Quarto"
-            file: explore.qmd
-          - text: "Render vs Preview"
-            file: render-vs-preview.qmd
-          - text: "Learn More"
-            file: learning-more.qmd
 
 format:
   html:

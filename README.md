@@ -2,17 +2,17 @@
 <br />
 <p align="center">
   <a href="/">
-    <img src="assets/img/r-markdown-logo.png" alt="Logo" width="110" height="120">
+    <img src="_assets/logos/quarto-logo.png" alt="Logo" width="150">
   </a>
 
-  <h3 align="center">Quarto Reporting</h3>
+  <h3 align="center">NHS Quarto Theme</h3>
 
   <p align="center">
-    NHS England Medical Directorate - Prevention Team
+    [Craig Shenton](https://github.com/craig-shenton)
     <br />
-    <a href="/"><strong>Explore the docs »</strong></a>
+    <!--<a href="/"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
+    <br />-->
     <a href="/issues">Report Bug</a>
     ·
     <a href="/issues">Request Feature</a>
@@ -49,7 +49,9 @@
 
 ## About The Project
 
-Quarto reporting repository
+An NHS Theme for deploying Quarto markdown reports to GitHub.io pages with automated GitHub action. 
+
+Based on CSS from R-Studio Education's [datasciencebox.org/](https://github.com/rstudio-education/datascience-box) site.
 
 _**Note:** No data, public or private are shared in this repository._
 
@@ -58,25 +60,26 @@ _**Note:** No data, public or private are shared in this repository._
 | Name | Link | Description |
 | ---- | ---- | ----------- |
 | .github/workflows | [[Link](/.github/workflows)]  | Github Action workflow files that automate the publishing process |
-| assets | [[Link](/assets)]  | Image assets |
-| docs | [[Link](/docs)]  | Quarto files that create the GitHub.io bookdown page |
+| _assets/ | [[Link](/assets)]  | Assets |
+| _assets/favicons | [[Link](/_assets/favicons)]  | Small logo image that appears on the browser tab |
+| _assets/figures | [[Link](/_assets/figures)]  | Images of R/Python figures and charts |
+| _assets/icons | [[Link](/_assets/icons)]  | Navigation icons from NHS.UK frontend |
+| _assets/img | [[Link](/_assets/img)]  | Misc images |
+| _assets/logos | [[Link](/_assets/logos)]  | NHS Logo files |
+| _assets/style | [[Link](/_assets/style)]  | CSS files that edit the site theme |
 
 ### Built With
 
+- [Quarto](https://quarto.org/)
 - [R](https://www.r-project.org/)
-- [Quarto](https://)
+- [Python](https://www.python.org/)
+- [GitHub Actions](https://github.com/features/actions)
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-Quarto
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Please refer to our [Read the Docs](/) site
+Please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site
 
 <!-- ROADMAP -->
 
@@ -102,7 +105,7 @@ _See [CONTRIBUTING.md](/blob/main/CONTRIBUTING.md) for detailed guidance._
 
 ## License
 
-Distributed under the MIT License. _See [LICENSE.md](/LICENSE) for more information._
+Distributed under the Creative Commons License. _See [LICENSE.md](/LICENSE) for more information._
 
 <!-- CONTACT -->
 
