@@ -228,7 +228,7 @@
     "href": "p-example.html#two-column-div",
     "title": "Python Example",
     "section": "Two Column Div",
-    "text": "Two Column Div"
+    "text": "Two Column Div\n\n\n\n\n\n\nMarkdown\n\n\n\n\n\n\n\nR-Studio"
   },
   {
     "objectID": "p-example.html#colour-text",
@@ -242,6 +242,6 @@
     "href": "p-example.html#tabbed-div",
     "title": "Python Example",
     "section": "Tabbed Div",
-    "text": "Tabbed Div\n\nMarkdownR-Studio"
+    "text": "Tabbed Div\n\nMarkdownR-Studio\n\n\n\n\n\nMarkdown\n\n\n\n\n\n\n\nR-Studio"
   }
 ]
