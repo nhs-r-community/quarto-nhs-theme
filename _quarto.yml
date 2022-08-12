@@ -31,7 +31,7 @@ website:
 
   navbar:
     background: "#005eb8"
-    logo: _assets/logos/logo-nhs-200.png
+    logo: _assets/logos/logo-nhs-300.png
     align: center
     title: false
     collapse-below: lg
