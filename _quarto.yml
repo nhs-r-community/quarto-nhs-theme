@@ -5,6 +5,7 @@ project:
   #   - "course-materials/_slides/"
     
 website:
+  number-sections: true
   page-navigation: true
   title: "Quarto NHS Theme"
   author: "Craig Shenton"
@@ -70,8 +71,12 @@ website:
               file: p-example.qmd
         - section: "Quarto"
           contents:
-          - text: "Transition from R-Markdown"
-            file: transition-from-rmarkdown.qmd
+          - text: "Explore Quarto"
+            file: explore.qmd
+          - text: "Render vs Preview"
+            file: render-vs-preview.qmd
+          - text: "Learn More"
+            file: learning-more.qmd
 
 format:
   html:

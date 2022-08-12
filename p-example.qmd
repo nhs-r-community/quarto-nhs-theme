@@ -23,3 +23,49 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
+
+:::{.callout-note}
+Note!
+:::
+
+:::{.callout-tip}
+## Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+:::{.callout-warning}
+Warning!
+:::
+
+:::{.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+:::{.callout-important}
+Important!
+:::
+
+::: {layout-ncol=2}
+
+![Markdown](_assets/img/markdown-logo.png){fig-alt="Markdown"}
+
+![R-Studio](_assets/img/RStudio-ball.svg){fig-alt="R-Studio"}
+
+:::
+
+This is text with [special]{style="color:red;"} formatting.
+
+::: {.panel-tabset}
+
+## Element 1
+
+![Markdown](_assets/img/markdown-logo.png){fig-alt="Markdown"}
+
+## Element 2
+
+![R-Studio](_assets/img/RStudio-ball.svg){fig-alt="R-Studio"}
+
+:::
