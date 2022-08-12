@@ -8,7 +8,7 @@
   <h3 align="center">NHS Quarto Theme</h3>
 
   <p align="center">
-    [Craig Shenton](https://github.com/craig-shenton)
+    Developed by <a href="https://github.com/craig-shenton">Craig Shenton</a> @ NHS England
     <br />
     <!--<a href="/"><strong>Explore the docs »</strong></a>
     <br />
@@ -26,21 +26,15 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#folder-stucture">Folder Stucture</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
@@ -51,7 +45,7 @@
 
 An NHS Theme for deploying Quarto markdown reports to GitHub.io pages with automated GitHub action. 
 
-Based on CSS from R-Studio Education's [datasciencebox.org/](https://github.com/rstudio-education/datascience-box) site.
+Based on CSS from R-Studio Education's [datasciencebox.org](https://github.com/rstudio-education/datascience-box) site.
 
 _**Note:** No data, public or private are shared in this repository._
 
@@ -60,7 +54,7 @@ _**Note:** No data, public or private are shared in this repository._
 | Name | Link | Description |
 | ---- | ---- | ----------- |
 | .github/workflows | [[Link](/.github/workflows)]  | Github Action workflow files that automate the publishing process |
-| _assets/ | [[Link](/assets)]  | Assets |
+| _assets/ | [[Link](/assets)]  | Art and style assets that build the page theme |
 | _assets/favicons | [[Link](/_assets/favicons)]  | Small logo image that appears on the browser tab |
 | _assets/figures | [[Link](/_assets/figures)]  | Images of R/Python figures and charts |
 | _assets/icons | [[Link](/_assets/icons)]  | Navigation icons from NHS.UK frontend |
@@ -113,4 +107,4 @@ Distributed under the Creative Commons License. _See [LICENSE.md](/LICENSE) for 
 
 Project contact email: [craig.shenton@nhs.net](mailto:craig.shenton@nhs.net)
 
-To find out more about the [Prevention](/) team visit our [project website](/) or get in touch at [craig.shenton@nhs.net](mailto:craig.shenton@nhs.net)
+To find out more about the [NHS Python Community](https://nhs-pycom.net/) visit our [website](https://nhs-pycom.net/) or get in touch at [craig.shenton@nhs.net](mailto:craig.shenton@nhs.net)
