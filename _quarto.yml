@@ -7,7 +7,6 @@ project:
 website:
   page-navigation: true
   title: "Quarto NHS Theme"
-  author: "Craig Shenton"
   description: "NHS Theme"
   date: now
   site-url: https://craig-shenton.github.io/quarto-nhs-theme
