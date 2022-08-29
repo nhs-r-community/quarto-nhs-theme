@@ -8,7 +8,8 @@ website:
   page-navigation: true
   title: "Quarto NHS Theme"
   description: "NHS Theme"
-  date: now
+  date: "`r Sys.time()`"
+  date-format: medium
   site-url: https://craig-shenton.github.io/quarto-nhs-theme
   favicon: _assets/favicon/favicon.ico
   repo-url: https://github.com/craig-shenton/quarto-nhs-theme
