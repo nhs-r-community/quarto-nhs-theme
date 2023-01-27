@@ -16,7 +16,7 @@ comments: false
 
 # quarto-nhs-theme <span>v0.2.0</span>
 
-### An NHS theme for Quarto websites
+### NHS theme for Quarto websites
 
 :::
 

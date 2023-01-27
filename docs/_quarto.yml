@@ -6,7 +6,7 @@ website:
   title: "Quarto NHS Theme"
   description: "NHS Theme"
   site-url: https://craig-shenton.github.io/quarto-nhs-theme
-  favicon: _assets/favicon/favicon.ico
+  favicon: docs/_assets/favicon.ico
   repo-url: https://github.com/craig-shenton/quarto-nhs-theme
   repo-actions: [edit, issue]
 

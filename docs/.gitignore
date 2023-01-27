@@ -1,2 +1,7 @@
+# ignore rendered files. If done corret you will
+# be rendering the .html files to `gh_pages` branch
+# so no need to put the outputs under version control
+# in the main branch
+
 /.quarto/
 /_site/

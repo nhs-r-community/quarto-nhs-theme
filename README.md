@@ -1,9 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="/">
-    <img src="_assets/logos/quarto-logo.png" alt="Logo" width="150">
-  </a>
 
   <h3 align="center">NHS Quarto Theme</h3>
 
@@ -43,9 +40,7 @@
 
 ## About The Project
 
-An NHS Theme for deploying Quarto markdown reports to GitHub.io pages with automated GitHub action. 
-
-Based on CSS from R-Studio Education's [datasciencebox.org](https://github.com/rstudio-education/datascience-box) site.
+An NHS Theme for deploying Quarto websites to GitHub.io pages with automated GitHub action.
 
 _**Note:** No data, public or private are shared in this repository._
 
@@ -54,13 +49,11 @@ _**Note:** No data, public or private are shared in this repository._
 | Name | Link | Description |
 | ---- | ---- | ----------- |
 | .github/workflows | [[Link](/.github/workflows)]  | Github Action workflow files that automate the publishing process |
-| _assets/ | [[Link](/assets)]  | Art and style assets that build the page theme |
-| _assets/favicons | [[Link](/_assets/favicons)]  | Small logo image that appears on the browser tab |
-| _assets/figures | [[Link](/_assets/figures)]  | Images of R/Python figures and charts |
-| _assets/icons | [[Link](/_assets/icons)]  | Navigation icons from NHS.UK frontend |
-| _assets/img | [[Link](/_assets/img)]  | Misc images |
-| _assets/logos | [[Link](/_assets/logos)]  | NHS Logo files |
-| _assets/style | [[Link](/_assets/style)]  | CSS files that edit the site theme |
+| docs/ | [[Link](docs/)]  | All files for rendering the Quarto website |
+| docs/_assets/ | [[Link](docs/assets)]  | Art and style assets that build the page theme |
+| docs/documentation | [[Link](docs/)]  | All markdown files here will be added to the documentation sidebar  |
+| docs/posts | [[Link](docs/)]  | Blog posts. Each post should be in its own folder as a `index.qmd` file |
+| docs/tutorials | [[Link](docs/)]  | All markdown files here will be added to the tutorial sidebar |
 
 ### Built With
 
@@ -73,7 +66,24 @@ _**Note:** No data, public or private are shared in this repository._
 
 ## Getting Started
 
-Please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site
+### Template
+
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
+
+
+[![docs/_assets/img/use-this-template-button.png](docs/_assets/img/use-this-template-button.png)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+### read the contribution guide
+
+https://craig-shenton.github.io/quarto-nhs-theme/contribute.html
+
+### before first commit, publish localy
+https://quarto.org/docs/publishing/github-pages.html#publish-command
+
+### change icons
+https://icons.getbootstrap.com/
+
+For general guidance on how to use Quarto, please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site, and check out the [R-Studio guide](https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html).
 
 <!-- ROADMAP -->
 
