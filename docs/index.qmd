@@ -18,6 +18,10 @@ comments: false
 
 ### NHS theme for Quarto websites
 
+::: {.hero-buttons}
+[Install Theme](tutorials/index.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+::: 
+
 :::
 
 ::: {.hero-image .hero-image-right}

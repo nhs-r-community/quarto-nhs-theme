@@ -1,9 +1,114 @@
 ---
-title: "Get Started"
-subtitle: "A quick tutorial to learn the basics."  
+title: "Install Theme"
+subtitle: "A quick tutorial to get started"  
 comments: false
 ---
 
-::: {.callout-warning}
-## Under Development 
-:::
+::::: {.grid .step .column-page-right}
+
+:::: {.g-col-lg-2 .g-col-12}
+## Step 1 
+
+#### Install {.fw-light}
+::::
+
+:::: {.g-col-lg-7 .g-col-12}
+
+## From the GitHub repo, use as a template
+
+Go to [https://github.com/craig-shenton/quarto-nhs-theme](https://github.com/craig-shenton/quarto-nhs-theme) and at the top right of the page there should be a green button that says `Use this template > Create a new repository`.
+
+[![docs/_assets/img/use-this-template-button.png](docs/_assets/img/use-this-template-button.png)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+Follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to istall the template to your own repository.
+
+::::
+
+:::::
+
+::::: {.grid .step .column-page-right}
+
+:::: {.g-col-lg-2 .g-col-12}
+## Step 2
+
+#### Quarto.yml {.fw-light}
+::::
+
+:::: {.g-col-lg-7 .g-col-12}
+
+## Edit the `Quarto.yml file
+
+https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml
+
+::::
+
+:::::
+
+::::: {.grid .step .column-page-right}
+
+:::: {.g-col-lg-2 .g-col-12}
+## Step 3
+
+#### Add pages {.fw-light}
+::::
+
+:::: {.g-col-lg-7 .g-col-12}
+
+##  Read the contribution guide
+
+::::
+
+:::::
+
+::::: {.grid .step .column-page-right}
+
+:::: {.g-col-lg-2 .g-col-12}
+## Step 4
+
+#### First Render {.fw-light}
+::::
+
+:::: {.g-col-lg-7 .g-col-12}
+
+## before first commit, publish localy
+
+https://quarto.org/docs/publishing/github-pages.html#publish-command
+
+::::
+
+:::::
+
+::::: {.grid .step .column-page-right}
+
+:::: {.g-col-lg-2 .g-col-12}
+## Step 4
+
+#### Change Icons {.fw-light}
+::::
+
+:::: {.g-col-lg-7 .g-col-12}
+
+## change icons
+https://icons.getbootstrap.com/
+
+::::
+
+:::::
+
+::::: {.grid .step .column-page-right}
+
+:::: {.g-col-lg-2 .g-col-12}
+## Step 4
+
+#### Publish {.fw-light}
+::::
+
+:::: {.g-col-lg-7 .g-col-12}
+
+## Github actions
+
+::::
+
+:::::
+
+For general guidance on how to use Quarto, please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site, and check out the [R-Studio guide](https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html).

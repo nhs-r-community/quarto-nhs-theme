@@ -66,24 +66,7 @@ _**Note:** No data, public or private are shared in this repository._
 
 ## Getting Started
 
-### Template
-
-https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
-
-
-[![docs/_assets/img/use-this-template-button.png](docs/_assets/img/use-this-template-button.png)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-
-### read the contribution guide
-
-https://craig-shenton.github.io/quarto-nhs-theme/contribute.html
-
-### before first commit, publish localy
-https://quarto.org/docs/publishing/github-pages.html#publish-command
-
-### change icons
-https://icons.getbootstrap.com/
-
-For general guidance on how to use Quarto, please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site, and check out the [R-Studio guide](https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html).
+See the [installation tutorial](https://craig-shenton.github.io/quarto-nhs-theme/tutorials/) for detailed guidance.
 
 <!-- ROADMAP -->
 
@@ -103,13 +86,11 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-_See [CONTRIBUTING.md](/blob/main/CONTRIBUTING.md) for detailed guidance._
-
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the Creative Commons License. _See [LICENSE.md](/LICENSE) for more information._
+Distributed under a MIT License. _See [LICENSE.md](/LICENSE) for more information._
 
 <!-- CONTACT -->
 
