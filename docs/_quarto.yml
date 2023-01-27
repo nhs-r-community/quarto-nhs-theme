@@ -23,7 +23,7 @@ website:
     title: false
     collapse-below: lg
     left:
-      - text: "nhspy-plotthedots"
+      - text: "quarto-nhs-theme"
         icon: "box-seam"
         href: index.qmd
       - text: "Tutorials"
