@@ -12,6 +12,33 @@
 <generator>quarto-1.2.313</generator>
 <lastBuildDate>Sun, 11 Dec 2022 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>{quarto-nhs-theme} v0.2.0</title>
+  <dc:creator>Craig R Shenton</dc:creator>
+  <link>https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="v0.2.0" class="level2">
+<h2 class="anchored" data-anchor-id="v0.2.0">v0.2.0</h2>
+<pre><code>1. Moved all website files to the `docs/` folder so that the root folder can be used for analytical code. (see [nhspy-plotthedots](https://github.com/nhs-pycom/nhspy-plotthedots) for an example project)
+2. Changed the font to `[open-sans](https://fonts.google.com/specimen/Open+Sans)` open font.
+3. Added [bootstrap icons](https://icons.getbootstrap.com/).
+4. Added blog fuction and [giscus comments](https://github.com/giscus/giscus).
+5. Added drop down menues to top bar
+6. Added Quarto `.css` for hero banner and buttons
+7. Added auto publish all `.qmd` files in `tutorials/` and `documentation/` folders</code></pre>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</guid>
+  <pubDate>Sun, 11 Dec 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/thumbnail.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
   <title>Welcome To My Blog</title>
   <dc:creator>Craig R Shenton</dc:creator>
   <link>https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/index.html</link>

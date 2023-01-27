@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Quarto NHS Theme",
     "section": "",
-    "text": "quarto-nhs-theme v0.2.0\n\nAn NHS theme for Quarto websites\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions. This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nQuarto.org is the go-to place for full documentation and more tutorials!"
+    "text": "quarto-nhs-theme v0.2.0\n\nNHS theme for Quarto websites\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions. This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nQuarto.org is the go-to place for full documentation and more tutorials!"
   },
   {
     "objectID": "tutorials/index.html",
@@ -46,7 +46,7 @@
     "href": "updates.html",
     "title": "Updates",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
+    "text": "{quarto-nhs-theme} v0.2.0\n\n\n\n\n\n\n\nnews\n\n\n\n\nChange Log\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contribute.html",
@@ -54,6 +54,13 @@
     "title": "Contribute to the docs",
     "section": "",
     "text": "git checkout -b <branch-name>\n\n\n\nTo the .qmd file add a YAML header with a title and subtitle.\n---\ntitle: Contribute to the docs\nsubtitle: \"How to add a new page to the documentations site using Quarto?\"\n---\n\n\n\nOpen the _quarto.yml configuration file and find the sidebar config code.\nsidebar:\n  - id: nav\n    style: \"floating\"\n    collapse-level: 3\n    align: left\n    contents:\nUnder the contents: object add a new section (if required), a string lable for your page, and a link to the .qmd file itself.\n- section: \"tutorials\"\n  contents:\n    - text: \"Reproducible Analytical Pipelines\"\n      file: tutorials/intro-to-rap.qmd\n\n\n\n\n\n\n\n\n\nRender Quarto before publishing\n\n\n\n\n\nRemember to render your changes locally using R-Studio (or VScode) before publishing\n\n\n\nCommit your changes locally\ngit commit -m 'Added new page to docs'\nThen push your changes to the remote branch\ngit push origin <branch-name>\nFinally, open a Pull Request (PR) https://github.com/nhs-pycom/nhspy-plotthedots/pulls"
+  },
+  {
+    "objectID": "posts/update-23-01-27/index.html",
+    "href": "posts/update-23-01-27/index.html",
+    "title": "{quarto-nhs-theme} v0.2.0",
+    "section": "",
+    "text": "1. Moved all website files to the `docs/` folder so that the root folder can be used for analytical code. (see [nhspy-plotthedots](https://github.com/nhs-pycom/nhspy-plotthedots) for an example project)\n2. Changed the font to `[open-sans](https://fonts.google.com/specimen/Open+Sans)` open font.\n3. Added [bootstrap icons](https://icons.getbootstrap.com/).\n4. Added blog fuction and [giscus comments](https://github.com/giscus/giscus).\n5. Added drop down menues to top bar\n6. Added Quarto `.css` for hero banner and buttons\n7. Added auto publish all `.qmd` files in `tutorials/` and `documentation/` folders"
   },
   {
     "objectID": "posts/welcome/index.html",
