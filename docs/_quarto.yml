@@ -1,0 +1,95 @@
+project:
+  type: website
+    
+website:
+  open-graph: true
+  title: "Quarto NHS Theme"
+  description: "NHS Theme"
+  site-url: https://craig-shenton.github.io/quarto-nhs-theme
+  favicon: _assets/favicon/favicon.ico
+  repo-url: https://github.com/craig-shenton/quarto-nhs-theme
+  repo-actions: [edit, issue]
+
+  page-footer:
+    left: "This page is built [Quarto](https://quarto.org/)."
+    right:
+    - text: "License"
+      href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/LICENSE
+    - text: "Code of Conduct"
+      href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/CODE_OF_CONDUCT.md
+
+  navbar:
+    background: light
+    title: false
+    collapse-below: lg
+    left:
+      - text: "quarto-nhs-theme"
+        icon: "box-seam"
+        href: index.qmd
+      - text: "Tutorials"
+        icon: "bookmark-check"
+        href: tutorials/index.qmd
+      - text: "Documentation"
+        icon: "file-earmark-text"
+        href: documentation/index.qmd
+      - text: "Updates"
+        icon: "rss"
+        href: updates.qmd
+    right:
+      - text: "Help"
+        menu:
+          - text: "About"
+            icon: "info-circle"
+            href: about.qmd
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/craig-shenton/quarto-nhs-theme/issues"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/craig-shenton/quarto-nhs-theme/discussions"
+          - text: "FAQ"
+            icon: "question-circle"
+            href: faq.qmd
+      - icon: github
+        href: https://github.com/craig-shenton/
+        aria-label: GitHub
+      - icon: cloud-fill
+        href: https://nhs-pycom.net/
+        aria-label: NHS Python Community
+  sidebar:
+    id: toc-side
+    style: "floating"
+    pinned: true
+    contents:
+      - text: "Homepage" 
+        file: index.qmd
+      - text: "Contribute to docs"
+        file: contribute.qmd
+      - section: Tutorials
+        file: tutorials/index.qmd
+        contents: 
+          - auto: tutorials/*.qmd
+      - section: Documentation
+        file: documentation/index.qmd
+        contents: 
+          - auto: documentation/*.qmd
+      - text: "FAQ"
+        file: faq.qmd
+      - text: "About"
+        file: about.qmd
+  comments:
+    giscus:
+      repo: craig-shenton/quarto-nhs-theme
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    theme:
+      light: [cosmo, _assets/style/theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: _assets/style/styles.css
+    include-after-body: _assets/style/js.html
+
+execute:
+  freeze: auto

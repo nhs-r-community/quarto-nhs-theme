@@ -1,0 +1,26 @@
+---
+title: "About {nhs-quarto-theme}"
+comments: false
+---
+
+## Authors
+
+- [Craig Robert Shenton, PhD](https://github.com/craig-shenton) `author`, `maintainer`.
+
+## Licence
+
+MIT License, see [`LICENSE.md`](https://github.com/craig-shenton/quarto-nhs-theme/blob/main/LICENSE)
+
+## Citation
+
+Shenton, CR. *nhs-quarto-theme* (2023). At <[https://github.com/craig-shenton/quarto-nhs-theme](https://github.com/craig-shenton/quarto-nhs-theme)>.
+
+```r
+@Manual{nhsquartotheme2023,
+  title  = {nhs-quarto-theme},
+  author = {Craig R Shenton},
+  url = {https://github.com/craig-shenton/quarto-nhs-theme},
+  year = {2023},
+}
+```
+
