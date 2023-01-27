@@ -14,7 +14,7 @@ website:
     left: "This page is built [Quarto](https://quarto.org/)."
     right:
     - text: "License"
-      href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/LICENSE
+      href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/LICENCE
     - text: "Code of Conduct"
       href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/CODE_OF_CONDUCT.md
 
