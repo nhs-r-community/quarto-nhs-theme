@@ -1,7 +1,21 @@
 [
   {
-    "objectID": "documentation/pandas.html",
-    "href": "documentation/pandas.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto NHS Theme",
+    "section": "",
+    "text": "quarto-nhs-theme v0.2.0\n\nAn NHS theme for Quarto websites\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions. This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nQuarto.org is the go-to place for full documentation and more tutorials!"
+  },
+  {
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Get Started",
+    "section": "",
+    "text": "Under Development"
+  },
+  {
+    "objectID": "tutorials/pandas.html",
+    "href": "tutorials/pandas.html",
     "title": "Pandas",
     "section": "",
     "text": "Under Development"
@@ -14,11 +28,25 @@
     "text": "Under Development"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "documentation/pandas.html",
+    "href": "documentation/pandas.html",
+    "title": "Pandas",
     "section": "",
-    "text": "Welcome to my new blog! I’m excited to share my thoughts, ideas, and experiences with you on this platform. This blog will be a place where I can share my passions and interests, as well as provide helpful information and insights on topics that I’m knowledgeable about.\nI’m passionate about many things, but some of the main topics that I’ll be writing about on this blog include technology, data science, and personal development. I’ll be sharing tips and tricks for using new technologies, discussing the latest trends and developments in the field of data science, and offering advice on how to improve your personal and professional skills.\nI hope that you’ll find my blog interesting and informative, and that you’ll come back often to read my latest posts. I welcome your feedback and suggestions, and I’m looking forward to connecting with you and engaging in meaningful discussions on this platform.\nThank you for visiting my blog, and I hope that you’ll enjoy what you read here. Happy reading!\nWritten by ChatGPT."
+    "text": "Under Development"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Under Development"
+  },
+  {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates",
+    "section": "",
+    "text": "Welcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contribute.html",
@@ -28,11 +56,11 @@
     "text": "git checkout -b <branch-name>\n\n\n\nTo the .qmd file add a YAML header with a title and subtitle.\n---\ntitle: Contribute to the docs\nsubtitle: \"How to add a new page to the documentations site using Quarto?\"\n---\n\n\n\nOpen the _quarto.yml configuration file and find the sidebar config code.\nsidebar:\n  - id: nav\n    style: \"floating\"\n    collapse-level: 3\n    align: left\n    contents:\nUnder the contents: object add a new section (if required), a string lable for your page, and a link to the .qmd file itself.\n- section: \"tutorials\"\n  contents:\n    - text: \"Reproducible Analytical Pipelines\"\n      file: tutorials/intro-to-rap.qmd\n\n\n\n\n\n\n\n\n\nRender Quarto before publishing\n\n\n\n\n\nRemember to render your changes locally using R-Studio (or VScode) before publishing\n\n\n\nCommit your changes locally\ngit commit -m 'Added new page to docs'\nThen push your changes to the remote branch\ngit push origin <branch-name>\nFinally, open a Pull Request (PR) https://github.com/nhs-pycom/nhspy-plotthedots/pulls"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto NHS Theme",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "quarto-nhs-theme v0.2.0\n\nAn NHS theme for Quarto websites\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions. This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nQuarto.org is the go-to place for full documentation and more tutorials!"
+    "text": "Welcome to my new blog! I’m excited to share my thoughts, ideas, and experiences with you on this platform. This blog will be a place where I can share my passions and interests, as well as provide helpful information and insights on topics that I’m knowledgeable about.\nI’m passionate about many things, but some of the main topics that I’ll be writing about on this blog include technology, data science, and personal development. I’ll be sharing tips and tricks for using new technologies, discussing the latest trends and developments in the field of data science, and offering advice on how to improve your personal and professional skills.\nI hope that you’ll find my blog interesting and informative, and that you’ll come back often to read my latest posts. I welcome your feedback and suggestions, and I’m looking forward to connecting with you and engaging in meaningful discussions on this platform.\nThank you for visiting my blog, and I hope that you’ll enjoy what you read here. Happy reading!\nWritten by ChatGPT."
   },
   {
     "objectID": "about.html",
@@ -54,33 +82,5 @@
     "title": "About {nhs-quarto-theme}",
     "section": "Citation",
     "text": "Citation\nShenton, CR. nhs-quarto-theme (2023). At <https://github.com/craig-shenton/quarto-nhs-theme>.\n@Manual{nhsquartotheme2023,\n  title  = {nhs-quarto-theme},\n  author = {Craig R Shenton},\n  url = {https://github.com/craig-shenton/quarto-nhs-theme},\n  year = {2023},\n}"
-  },
-  {
-    "objectID": "updates.html",
-    "href": "updates.html",
-    "title": "Updates",
-    "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "Frequently Asked Questions",
-    "section": "",
-    "text": "Under Development"
-  },
-  {
-    "objectID": "tutorials/pandas.html",
-    "href": "tutorials/pandas.html",
-    "title": "Pandas",
-    "section": "",
-    "text": "Under Development"
-  },
-  {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Get Started",
-    "section": "",
-    "text": "Under Development"
   }
 ]
