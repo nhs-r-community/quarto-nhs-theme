@@ -4,14 +4,84 @@
     "href": "index.html",
     "title": "Quarto NHS Theme",
     "section": "",
-    "text": "quarto-nhs-theme v0.2.0\n\nNHS theme for Quarto websites\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions. This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nQuarto.org is the go-to place for full documentation and more tutorials!"
+    "text": "quarto-nhs-theme v0.2.0\n\nNHS theme for Quarto websites\n\nInstall Theme\n\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions. This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nQuarto.org is the go-to place for full documentation and more tutorials!"
   },
   {
     "objectID": "tutorials/index.html",
     "href": "tutorials/index.html",
-    "title": "Get Started",
+    "title": "Install Theme",
     "section": "",
-    "text": "Under Development"
+    "text": "Go to https://github.com/craig-shenton/quarto-nhs-theme and at the top right of the page there should be a green button that says Use this template > Create a new repository.\n\n\n\ndocs/_assets/img/use-this-template-button.png\n\n\nFollow the GitHub guide to istall the template to your own repository.\nFor general guidance on how to use Quarto, please refer to the Quarto Tutorial site, and check out the R-Studio guide."
+  },
+  {
+    "objectID": "tutorials/index.html#step-2",
+    "href": "tutorials/index.html#step-2",
+    "title": "Install Theme",
+    "section": "Step 2",
+    "text": "Step 2\n\nQuarto.yml"
+  },
+  {
+    "objectID": "tutorials/index.html#edit-the-quarto.yml-file",
+    "href": "tutorials/index.html#edit-the-quarto.yml-file",
+    "title": "Install Theme",
+    "section": "Edit the `Quarto.yml file",
+    "text": "Edit the `Quarto.yml file\nhttps://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml"
+  },
+  {
+    "objectID": "tutorials/index.html#step-3",
+    "href": "tutorials/index.html#step-3",
+    "title": "Install Theme",
+    "section": "Step 3",
+    "text": "Step 3\n\nAdd pages"
+  },
+  {
+    "objectID": "tutorials/index.html#read-the-contribution-guide",
+    "href": "tutorials/index.html#read-the-contribution-guide",
+    "title": "Install Theme",
+    "section": "Read the contribution guide",
+    "text": "Read the contribution guide"
+  },
+  {
+    "objectID": "tutorials/index.html#step-4",
+    "href": "tutorials/index.html#step-4",
+    "title": "Install Theme",
+    "section": "Step 4",
+    "text": "Step 4\n\nFirst Render"
+  },
+  {
+    "objectID": "tutorials/index.html#before-first-commit-publish-localy",
+    "href": "tutorials/index.html#before-first-commit-publish-localy",
+    "title": "Install Theme",
+    "section": "before first commit, publish localy",
+    "text": "before first commit, publish localy\nhttps://quarto.org/docs/publishing/github-pages.html#publish-command"
+  },
+  {
+    "objectID": "tutorials/index.html#step-4-1",
+    "href": "tutorials/index.html#step-4-1",
+    "title": "Install Theme",
+    "section": "Step 4",
+    "text": "Step 4\n\nChange Icons"
+  },
+  {
+    "objectID": "tutorials/index.html#change-icons-1",
+    "href": "tutorials/index.html#change-icons-1",
+    "title": "Install Theme",
+    "section": "change icons",
+    "text": "change icons\nhttps://icons.getbootstrap.com/"
+  },
+  {
+    "objectID": "tutorials/index.html#step-4-2",
+    "href": "tutorials/index.html#step-4-2",
+    "title": "Install Theme",
+    "section": "Step 4",
+    "text": "Step 4\n\nPublish"
+  },
+  {
+    "objectID": "tutorials/index.html#github-actions",
+    "href": "tutorials/index.html#github-actions",
+    "title": "Install Theme",
+    "section": "Github actions",
+    "text": "Github actions"
   },
   {
     "objectID": "tutorials/pandas.html",
@@ -46,7 +116,7 @@
     "href": "updates.html",
     "title": "Updates",
     "section": "",
-    "text": "{quarto-nhs-theme} v0.2.0\n\n\n\n\n\n\n\nnews\n\n\n\n\nChange Log\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
+    "text": "{quarto-nhs-theme} v0.2.0\n\n\n\n\n\n\n\nnews\n\n\n\n\nChange Log\n\n\n\n\n\n\nJan 27, 2023\n\n\nCraig R Shenton\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contribute.html",
@@ -60,7 +130,7 @@
     "href": "posts/update-23-01-27/index.html",
     "title": "{quarto-nhs-theme} v0.2.0",
     "section": "",
-    "text": "1. Moved all website files to the `docs/` folder so that the root folder can be used for analytical code. (see [nhspy-plotthedots](https://github.com/nhs-pycom/nhspy-plotthedots) for an example project)\n2. Changed the font to `[open-sans](https://fonts.google.com/specimen/Open+Sans)` open font.\n3. Added [bootstrap icons](https://icons.getbootstrap.com/).\n4. Added blog fuction and [giscus comments](https://github.com/giscus/giscus).\n5. Added drop down menues to top bar\n6. Added Quarto `.css` for hero banner and buttons\n7. Added auto publish all `.qmd` files in `tutorials/` and `documentation/` folders"
+    "text": "Moved all website files to the docs/ folder so that the root folder can be used for analytical code. (see nhspy-plotthedots for an example project)\nChanged the font to [open-sans](https://fonts.google.com/specimen/Open+Sans) open font.\nAdded bootstrap icons.\nAdded blog fuction and giscus comments.\nAdded drop down menues to top bar\nAdded Quarto .css for hero banner and buttons\nAdded auto publish all .qmd files in tutorials/ and documentation/ folders"
   },
   {
     "objectID": "posts/welcome/index.html",
