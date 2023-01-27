@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Quarto NHS Theme</title>
+<link>https://craig-shenton.github.io/quarto-nhs-theme/updates.html</link>
+<atom:link href="https://craig-shenton.github.io/quarto-nhs-theme/updates.xml" rel="self" type="application/rss+xml"/>
+<description>NHS Theme</description>
+<generator>quarto-1.2.280</generator>
+<lastBuildDate>Sun, 11 Dec 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Craig R Shenton</dc:creator>
+  <link>https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Welcome to my new blog! I’m excited to share my thoughts, ideas, and experiences with you on this platform. This blog will be a place where I can share my passions and interests, as well as provide helpful information and insights on topics that I’m knowledgeable about.</p>
+<p>I’m passionate about many things, but some of the main topics that I’ll be writing about on this blog include technology, data science, and personal development. I’ll be sharing tips and tricks for using new technologies, discussing the latest trends and developments in the field of data science, and offering advice on how to improve your personal and professional skills.</p>
+<p>I hope that you’ll find my blog interesting and informative, and that you’ll come back often to read my latest posts. I welcome your feedback and suggestions, and I’m looking forward to connecting with you and engaging in meaningful discussions on this platform.</p>
+<p>Thank you for visiting my blog, and I hope that you’ll enjoy what you read here. Happy reading!</p>
+<p>Written by <a href="https://chat.openai.com/chat">ChatGPT</a>.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/index.html</guid>
+  <pubDate>Sun, 11 Dec 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
