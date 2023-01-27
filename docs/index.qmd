@@ -1,0 +1,31 @@
+---
+pagetitle: "quarto-nhs-theme"
+css: index.css
+editor: source
+description: | 
+  An NHS theme for Quarto websites
+comments: false
+---
+
+:::: {.hero-banner}
+
+::: {.hero-image .hero-image-left}
+:::
+
+::: {.content-block}
+
+# quarto-nhs-theme <span>v0.2.0</span>
+
+### An NHS theme for Quarto websites
+
+:::
+
+::: {.hero-image .hero-image-right}
+:::
+
+::::
+</br>
+
+It's possible to create beautiful documentation to share online with [Quarto](https://quarto.org) that auto-updates with [GitHub Actions](http://github.com). This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme --- it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.
+
+[Quarto.org](https://quarto.org) is the go-to place for full documentation and more tutorials! 
