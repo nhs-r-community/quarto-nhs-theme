@@ -19,16 +19,17 @@
 
 
 
-<section id="v0.2.0" class="level2">
-<h2 class="anchored" data-anchor-id="v0.2.0">v0.2.0</h2>
+<section id="v0.2.0-change-log" class="level2">
+<h2 class="anchored" data-anchor-id="v0.2.0-change-log">v0.2.0 Change Log</h2>
 <ol type="1">
 <li>Moved all website files to the <code>docs/</code> folder so that the root folder can be used for analytical code. (see <a href="https://github.com/nhs-pycom/nhspy-plotthedots">nhspy-plotthedots</a> for an example project)</li>
-<li>Changed the font to <code>[open-sans](https://fonts.google.com/specimen/Open+Sans)</code> open font.</li>
+<li>Changed the font to <a href="https://fonts.google.com/specimen/Open+Sans"><code>open-sans</code></a> open font.</li>
 <li>Added <a href="https://icons.getbootstrap.com/">bootstrap icons</a>.</li>
 <li>Added blog fuction and <a href="https://github.com/giscus/giscus">giscus comments</a>.</li>
 <li>Added drop down menues to top bar</li>
 <li>Added Quarto <code>.css</code> for hero banner and buttons</li>
-<li>Added auto publish all <code>.qmd</code> files in <code>tutorials/</code> and <code>documentation/</code> folders</li>
+<li>Added auto publish all <code>.qmd</code> files in <code>tutorials/</code> and <code>documentation/</code> folder</li>
+<li>Updated website with a <a href="https://craig-shenton.github.io/quarto-nhs-theme/tutorials/">tutorial</a> on how to install {quarto-nhs-theme}</li>
 </ol>
 
 

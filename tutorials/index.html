@@ -243,75 +243,79 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="from-the-github-repo-use-as-a-template" class="level2 g-col-lg-7 g-col-12">
 <h2 class="anchored" data-anchor-id="from-the-github-repo-use-as-a-template">From the GitHub repo, use as a template</h2>
-<p>Go to <a href="https://github.com/craig-shenton/quarto-nhs-theme">https://github.com/craig-shenton/quarto-nhs-theme</a> and at the top right of the page there should be a green button that says <code>Use this template &gt; Create a new repository</code>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template"><img src="docs/_assets/img/use-this-template-button.png" class="img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">docs/_assets/img/use-this-template-button.png</figcaption><p></p>
-</figure>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>Follow the <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template">GitHub guide</a> to istall the template to your own repository.</p>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can also follow the <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template">GitHub guide</a> to install the template to your own repository.</p>
+</div>
+</div>
+<p>Go to <a href="https://github.com/craig-shenton/quarto-nhs-theme">https://github.com/craig-shenton/quarto-nhs-theme</a> and at the top right of the page there should be a green button that says <code>Use this template &gt; Create a new repository</code>.</p>
+<p>Use the Owner drop-down menu, and select the account you want to own the repository.</p>
+<p>Type a name for your repository, and an optional description.</p>
+<p>Choose a repository visibility. Either <code>public</code> for open-source/open-data work or <code>private</code>. See <a href="https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/how-to-publish-your-code-in-the-open/">NHS Digital’s RAP community notes</a> on how and when to publish your code in the open.</p>
+<p>If using a personal account or your organisation allows GitHub Apps, and you want to enalbe comments, select <a href="https://github.com/giscus/giscus"><code>giscus</code></a> to enable comments. <strong>Note:</strong> you will also need to enable <code>discussions</code> in your repo settings for <a href="https://github.com/giscus/giscus"><code>giscus</code></a> to work.</p>
+<p>Click <strong>Create repository from template</strong> and we are ready to edit.</p>
 </section>
 </div>
 <div class="grid step column-page-right">
 <section id="step-2" class="level2 g-col-lg-2 g-col-12">
 <h2 class="anchored" data-anchor-id="step-2">Step 2</h2>
-<section id="quarto.yml" class="level4 fw-light">
-<h4 class="fw-light anchored" data-anchor-id="quarto.yml">Quarto.yml</h4>
+<section id="configue" class="level4 fw-light">
+<h4 class="fw-light anchored" data-anchor-id="configue">Configue</h4>
 </section>
 </section>
 <section id="edit-the-quarto.yml-file" class="level2 g-col-lg-7 g-col-12">
-<h2 class="anchored" data-anchor-id="edit-the-quarto.yml-file">Edit the `Quarto.yml file</h2>
-<p>https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml</p>
+<h2 class="anchored" data-anchor-id="edit-the-quarto.yml-file">Edit the <code>quarto.yml</code> file</h2>
+<p>Open the <a href="https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml"><code>quarto.yml</code></a> file in your new repository and change <code>craig-shenton/quarto-nhs-theme</code> to <code>{your-user-name}/{your-project-name}</code>.</p>
+<p>You can also delete links to any pages you don’t need here, including the top and side bar menus.</p>
+<p>If you want to change the bootstrap icons in the top bar menu you can change the icon perameter <code>icon: "box-seam"</code> for example, with any bootstrap icon available here: <a href="https://icons.getbootstrap.com/">https://icons.getbootstrap.com/</a></p>
 </section>
 </div>
 <div class="grid step column-page-right">
 <section id="step-3" class="level2 g-col-lg-2 g-col-12">
 <h2 class="anchored" data-anchor-id="step-3">Step 3</h2>
-<section id="add-pages" class="level4 fw-light">
-<h4 class="fw-light anchored" data-anchor-id="add-pages">Add pages</h4>
+<section id="add-content" class="level4 fw-light">
+<h4 class="fw-light anchored" data-anchor-id="add-content">Add Content</h4>
 </section>
 </section>
 <section id="read-the-contribution-guide" class="level2 g-col-lg-7 g-col-12">
 <h2 class="anchored" data-anchor-id="read-the-contribution-guide">Read the contribution guide</h2>
+<p>If you want to add new pages to the docs here, please read the <a href="https://craig-shenton.github.io/quarto-nhs-theme/contribute.html"><code>contribute.qmd</code></a> page for details.</p>
 </section>
 </div>
 <div class="grid step column-page-right">
 <section id="step-4" class="level2 g-col-lg-2 g-col-12">
 <h2 class="anchored" data-anchor-id="step-4">Step 4</h2>
-<section id="first-render" class="level4 fw-light">
-<h4 class="fw-light anchored" data-anchor-id="first-render">First Render</h4>
+<section id="render" class="level4 fw-light">
+<h4 class="fw-light anchored" data-anchor-id="render">Render</h4>
 </section>
 </section>
-<section id="before-first-commit-publish-localy" class="level2 g-col-lg-7 g-col-12">
-<h2 class="anchored" data-anchor-id="before-first-commit-publish-localy">before first commit, publish localy</h2>
-<p>https://quarto.org/docs/publishing/github-pages.html#publish-command</p>
-</section>
-</div>
-<div class="grid step column-page-right">
-<section id="step-4-1" class="level2 g-col-lg-2 g-col-12">
-<h2 class="anchored" data-anchor-id="step-4-1">Step 4</h2>
-<section id="change-icons" class="level4 fw-light">
-<h4 class="fw-light anchored" data-anchor-id="change-icons">Change Icons</h4>
-</section>
-</section>
-<section id="change-icons-1" class="level2 g-col-lg-7 g-col-12">
-<h2 class="anchored" data-anchor-id="change-icons-1">change icons</h2>
-<p>https://icons.getbootstrap.com/</p>
+<section id="first-publish-locally" class="level2 g-col-lg-7 g-col-12">
+<h2 class="anchored" data-anchor-id="first-publish-locally">First publish locally</h2>
+<p>Your new repository will not have a <code>gh_pages</code> branch to render to, so we need to run the <code>quarto publish gh-pages</code> command in the terminal at the project folder location.</p>
+<p>See the <a href="https://quarto.org/docs/publishing/github-pages.html#publish-command">Quarto publishing docs</a> for full details.</p>
 </section>
 </div>
 <div class="grid step column-page-right">
-<section id="step-4-2" class="level2 g-col-lg-2 g-col-12">
-<h2 class="anchored" data-anchor-id="step-4-2">Step 4</h2>
+<section id="step-5" class="level2 g-col-lg-2 g-col-12">
+<h2 class="anchored" data-anchor-id="step-5">Step 5</h2>
 <section id="publish" class="level4 fw-light">
 <h4 class="fw-light anchored" data-anchor-id="publish">Publish</h4>
 </section>
 </section>
-<section id="github-actions" class="level2 g-col-lg-7 g-col-12">
-<h2 class="anchored" data-anchor-id="github-actions">Github actions</h2>
+<section id="setup-github.io-pages" class="level2 g-col-lg-7 g-col-12">
+<h2 class="anchored" data-anchor-id="setup-github.io-pages">Setup GitHub.io pages</h2>
+<p>On your repo page on GitHub, go to <code>settings &gt; pages &gt; source</code> and click <code>deploy from branch</code>. Below that change the branch from <code>none</code> to <code>gh_pages</code>. In approx 60 seconds your new website should be deployed at <code>https://{user-name}.github.io/{project-name}</code>.</p>
+<p>When you push any changes to the <code>docs/</code> folder from now on a tool called GitHub actions will essentially automate the preceding steps, saving a lot of time clicking. See the <a href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions">GitHub Actions docs</a> for full details.</p>
 </section>
 </div>
-<p>For general guidance on how to use Quarto, please refer to the <a href="https://openscapes.github.io/quarto-website-tutorial/">Quarto Tutorial</a> site, and check out the <a href="https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html">R-Studio guide</a>.</p>
 
 
 
