@@ -30,6 +30,8 @@ comments: false
 ::::
 </br>
 
-It's possible to create beautiful documentation to share online with [Quarto](https://quarto.org) that auto-updates with [GitHub Actions](http://github.com). This is very new and incredibly cool. This is an example of a quarto website with an NHS Theme --- it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.
+It's possible to create beautiful documentation to share online with [Quarto](https://quarto.org) that auto-updates with [GitHub Actions](http://github.com). 
 
-[Quarto.org](https://quarto.org) is the go-to place for full documentation and more tutorials! 
+This is an example of a Quarto website with an NHS Theme --- it is a really powerful way to create and share your work. You can communicate about your work using the same reproducible workflow you and your colleagues use for analyses.
+
+[Quarto.org](https://quarto.org) is the go-to place for full documentation and more tutorials For general guidance on how to use Quarto, please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site, and check out the [R-Studio guide](https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html).

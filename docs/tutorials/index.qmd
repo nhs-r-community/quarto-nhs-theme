@@ -16,11 +16,22 @@ comments: false
 
 ## From the GitHub repo, use as a template
 
+::: {.callout-note}
+You can also follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to install the template to your own repository.
+:::
+
 Go to [https://github.com/craig-shenton/quarto-nhs-theme](https://github.com/craig-shenton/quarto-nhs-theme) and at the top right of the page there should be a green button that says `Use this template > Create a new repository`.
 
-[![docs/_assets/img/use-this-template-button.png](docs/_assets/img/use-this-template-button.png)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+Use the Owner drop-down menu, and select the account you want to own the repository.
 
-Follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to istall the template to your own repository.
+Type a name for your repository, and an optional description.
+
+Choose a repository visibility. Either `public` for open-source/open-data work or `private`. See [NHS Digital's RAP community notes](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/how-to-publish-your-code-in-the-open/) on how and when to publish your code in the open.
+
+If using a personal account or your organisation allows GitHub Apps, and you want to enalbe comments, select [`giscus`](https://github.com/giscus/giscus) to enable comments. **Note:** you will also need to enable `discussions` in your repo settings for [`giscus`](https://github.com/giscus/giscus) to work.
+
+Click **Create repository from template** and we are ready to edit.
+
 
 ::::
 
@@ -31,14 +42,19 @@ Follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-m
 :::: {.g-col-lg-2 .g-col-12}
 ## Step 2
 
-#### Quarto.yml {.fw-light}
+#### Configue {.fw-light}
 ::::
 
 :::: {.g-col-lg-7 .g-col-12}
 
-## Edit the `Quarto.yml file
+## Edit the `quarto.yml` file
 
-https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml
+Open the [`quarto.yml`](https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml) file in your new repository and 
+change `craig-shenton/quarto-nhs-theme` to `{your-user-name}/{your-project-name}`.
+
+You can also delete links to any pages you don't need here, including the top and side bar menus.
+
+If you want to change the bootstrap icons in the top bar menu you can change the icon perameter `icon: "box-seam"` for example, with any bootstrap icon available here: [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
 
 ::::
 
@@ -49,13 +65,15 @@ https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml
 :::: {.g-col-lg-2 .g-col-12}
 ## Step 3
 
-#### Add pages {.fw-light}
+#### Add Content {.fw-light}
 ::::
 
 :::: {.g-col-lg-7 .g-col-12}
 
 ##  Read the contribution guide
 
+If you want to add new pages to the docs here, please read the [`contribute.qmd`](https://craig-shenton.github.io/quarto-nhs-theme/contribute.html) page for details.
+
 ::::
 
 :::::
@@ -65,31 +83,16 @@ https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml
 :::: {.g-col-lg-2 .g-col-12}
 ## Step 4
 
-#### First Render {.fw-light}
+#### Render {.fw-light}
 ::::
 
 :::: {.g-col-lg-7 .g-col-12}
 
-## before first commit, publish localy
+## First publish locally
 
-https://quarto.org/docs/publishing/github-pages.html#publish-command
+Your new repository will not have a `gh_pages` branch to render to, so we need to run the `quarto publish gh-pages` command in the terminal at the project folder location.
 
-::::
-
-:::::
-
-::::: {.grid .step .column-page-right}
-
-:::: {.g-col-lg-2 .g-col-12}
-## Step 4
-
-#### Change Icons {.fw-light}
-::::
-
-:::: {.g-col-lg-7 .g-col-12}
-
-## change icons
-https://icons.getbootstrap.com/
+See the [Quarto publishing docs](https://quarto.org/docs/publishing/github-pages.html#publish-command) for full details.
 
 ::::
 
@@ -98,17 +101,18 @@ https://icons.getbootstrap.com/
 ::::: {.grid .step .column-page-right}
 
 :::: {.g-col-lg-2 .g-col-12}
-## Step 4
+## Step 5
 
 #### Publish {.fw-light}
 ::::
 
 :::: {.g-col-lg-7 .g-col-12}
 
-## Github actions
+## Setup GitHub.io pages
+On your repo page on GitHub, go to `settings > pages > source` and click `deploy from branch`. Below that change the branch from `none` to `gh_pages`. In approx 60 seconds your new website should be deployed at `https://{user-name}.github.io/{project-name}`.
+
+When you push any changes to the `docs/` folder from now on a tool called GitHub actions will essentially automate the preceding steps, saving a lot of time clicking. See the [GitHub Actions docs](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) for full details.
 
 ::::
 
 :::::
-
-For general guidance on how to use Quarto, please refer to the [Quarto Tutorial](https://openscapes.github.io/quarto-website-tutorial/) site, and check out the [R-Studio guide](https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html).

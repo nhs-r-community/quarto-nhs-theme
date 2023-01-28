@@ -10,9 +10,9 @@
     <!--<a href="/"><strong>Explore the docs »</strong></a>
     <br />
     <br />-->
-    <a href="/issues">Report Bug</a>
+    <a href="https://github.com/craig-shenton/quarto-nhs-theme/issues">Report Bug</a>
     ·
-    <a href="/issues">Request Feature</a>
+    <a href="https://github.com/craig-shenton/quarto-nhs-theme/issues">Request Feature</a>
   </p>
 </p>
 
@@ -72,7 +72,7 @@ See the [installation tutorial](https://craig-shenton.github.io/quarto-nhs-theme
 
 ## Roadmap
 
-See the [open issues](/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/craig-shenton/quarto-nhs-theme/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING-->
 
