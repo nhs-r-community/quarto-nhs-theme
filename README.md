@@ -1,44 +1,12 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
+<a alt="NHS-R Community's logo" href='https://nhsrcommunity.com/'><img src='https://nhs-r-community.github.io/assets/logo/nhsr-logo.png' align="right" height="80" /></a>
 
-  <h3 align="center">NHS Quarto Theme</h3>
+# quarto-nhs-theme
 
-  <p align="center">
-    Developed by <a href="https://github.com/craig-shenton">Craig Shenton</a> @ NHS England
-    <br />
-    <!--<a href="/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />-->
-    <a href="https://github.com/craig-shenton/quarto-nhs-theme/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/craig-shenton/quarto-nhs-theme/issues">Request Feature</a>
-  </p>
-</p>
+<a href="https://join.slack.com/t/nhsrcommunity/shared_invite/zt-1e9394oqf-jHVOUf_8ZmMqGjGWsfPllw">
+<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
+</a>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#folder-stucture">Folder Stucture</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
-  </ol>
-</details>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
+## About
 
 An NHS Theme for deploying Quarto websites to GitHub.io pages with automated GitHub action.
 
@@ -59,43 +27,22 @@ _**Note:** No data, public or private are shared in this repository._
 
 - [Quarto](https://quarto.org/)
 - [R](https://www.r-project.org/)
-- [Python](https://www.python.org/)
 - [GitHub Actions](https://github.com/features/actions)
-
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
-See the [installation tutorial](https://craig-shenton.github.io/quarto-nhs-theme/tutorials/) for detailed guidance.
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/craig-shenton/quarto-nhs-theme/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING-->
+See the [installation tutorial](https://nhs-r-community.github.io/quarto-nhs-theme/tutorials/) for detailed guidance.
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Please see our [guidance on how to contribute](./CONTRIBUTING.md).
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+This project is released with a Contributor [Code of Conduct](./CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
-<!-- LICENSE -->
+## Roadmap
+
+See the [open issues](https://github.com/nhs-r-community/quarto-nhs-theme/issues) for a list of proposed features (and known issues).
 
 ## License
 
 Distributed under a MIT License. _See [LICENSE.md](/LICENSE) for more information._
-
-<!-- CONTACT -->
-
-## About
-
-Project contact email: [craig.shenton@nhs.net](mailto:craig.shenton@nhs.net)
-
-To find out more about the [NHS Python Community](https://nhs-pycom.net/) visit our [website](https://nhs-pycom.net/) or get in touch at [craig.shenton@nhs.net](mailto:craig.shenton@nhs.net)

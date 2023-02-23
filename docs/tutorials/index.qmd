@@ -20,7 +20,7 @@ comments: false
 You can also follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to install the template to your own repository.
 :::
 
-Go to [https://github.com/craig-shenton/quarto-nhs-theme](https://github.com/craig-shenton/quarto-nhs-theme) and at the top right of the page there should be a green button that says `Use this template > Create a new repository`.
+Go to [https://github.com/nhs-r-community/quarto-nhs-theme](https://github.com/nhs-r-community/quarto-nhs-theme) and at the top right of the page there should be a green button that says `Use this template > Create a new repository`.
 
 Use the Owner drop-down menu, and select the account you want to own the repository.
 
@@ -49,8 +49,8 @@ Click **Create repository from template** and we are ready to edit.
 
 ## Edit the `quarto.yml` file
 
-Open the [`quarto.yml`](https://github.com/craig-shenton/quarto-nhs-theme/blob/main/docs/_quarto.yml) file in your new repository and 
-change `craig-shenton/quarto-nhs-theme` to `{your-user-name}/{your-project-name}`.
+Open the [`quarto.yml`](https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/docs/_quarto.yml) file in your new repository and 
+change `nhs-r-community/quarto-nhs-theme` to `{your-user-name}/{your-project-name}`.
 
 You can also delete links to any pages you don't need here, including the top and side bar menus.
 
@@ -72,7 +72,7 @@ If you want to change the bootstrap icons in the top bar menu you can change the
 
 ##  Read the contribution guide
 
-If you want to add new pages to the docs here, please read the [`contribute.qmd`](https://craig-shenton.github.io/quarto-nhs-theme/contribute.html) page for details.
+If you want to add new pages to the docs here, please read the [`contribute.qmd`](https://nhs-r-community.github.io/quarto-nhs-theme/contribute.html) page for details.
 
 ::::
 

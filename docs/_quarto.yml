@@ -5,18 +5,18 @@ website:
   open-graph: true
   title: "Quarto NHS Theme"
   description: "NHS Theme"
-  site-url: https://craig-shenton.github.io/quarto-nhs-theme
+  site-url: https://nhs-r-community.github.io/quarto-nhs-theme
   favicon: docs/_assets/favicon.ico
-  repo-url: https://github.com/craig-shenton/quarto-nhs-theme
+  repo-url: https://github.com/nhs-r-community/quarto-nhs-theme
   repo-actions: [edit, issue]
 
   page-footer:
     left: "This page is built [Quarto](https://quarto.org/)."
     right:
     - text: "License"
-      href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/LICENCE
+      href: https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/LICENCE
     - text: "Code of Conduct"
-      href: https://github.com/craig-shenton/quarto-nhs-theme/blob/main/CODE_OF_CONDUCT.md
+      href: https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/CODE_OF_CONDUCT.md
 
   navbar:
     background: light
@@ -43,19 +43,19 @@ website:
             href: about.qmd
           - text: "Report a Bug"
             icon: "bug"
-            href: "https://github.com/craig-shenton/quarto-nhs-theme/issues"
+            href: "https://github.com/nhs-r-community/quarto-nhs-theme/issues"
           - text: "Ask a Question"
             icon: "chat-right-text"
-            href: "https://github.com/craig-shenton/quarto-nhs-theme/discussions"
+            href: "https://github.com/nhs-r-community/quarto-nhs-theme/discussions"
           - text: "FAQ"
             icon: "question-circle"
             href: faq.qmd
       - icon: github
-        href: https://github.com/craig-shenton/
+        href: https://github.com/nhs-r-community/
         aria-label: GitHub
       - icon: cloud-fill
-        href: https://nhs-pycom.net/
-        aria-label: NHS Python Community
+        href: https://nhsrcommunity.com/
+        aria-label: NHS-R Community
   sidebar:
     id: toc-side
     style: "floating"
@@ -79,7 +79,7 @@ website:
         file: about.qmd
   comments:
     giscus:
-      repo: craig-shenton/quarto-nhs-theme
+      repo: nhs-r-community/quarto-nhs-theme
 format:
   html:
     toc: true

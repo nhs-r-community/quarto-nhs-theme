@@ -16,4 +16,4 @@ title-block-banner: false
 5. Added drop down menues to top bar
 6. Added Quarto `.css` for hero banner and buttons
 7. Added auto publish all `.qmd` files in `tutorials/` and `documentation/` folder
-8. Updated website with a [tutorial](https://craig-shenton.github.io/quarto-nhs-theme/tutorials/) on how to install {quarto-nhs-theme}
+8. Updated website with a [tutorial](https://nhs-r-community.github.io/quarto-nhs-theme/tutorials/) on how to install {quarto-nhs-theme}
