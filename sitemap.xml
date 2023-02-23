@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/index.html</loc>
-    <lastmod>2023-01-28T14:21:00.802Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/contribute.html</loc>
+    <lastmod>2023-02-23T19:09:30.346Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/tutorials/index.html</loc>
-    <lastmod>2023-01-28T14:21:01.582Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/posts/welcome/index.html</loc>
+    <lastmod>2023-02-23T19:09:31.186Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/tutorials/pandas.html</loc>
-    <lastmod>2023-01-28T14:21:01.910Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</loc>
+    <lastmod>2023-02-23T19:09:31.694Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/documentation/index.html</loc>
-    <lastmod>2023-01-28T14:21:02.234Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/faq.html</loc>
+    <lastmod>2023-02-23T19:09:32.034Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/documentation/pandas.html</loc>
-    <lastmod>2023-01-28T14:21:02.550Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/about.html</loc>
+    <lastmod>2023-02-23T19:09:32.518Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/faq.html</loc>
-    <lastmod>2023-01-28T14:21:02.866Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/index.html</loc>
+    <lastmod>2023-02-23T19:09:32.846Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/updates.html</loc>
-    <lastmod>2023-01-28T14:21:03.278Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/updates.html</loc>
+    <lastmod>2023-02-23T19:09:33.218Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/contribute.html</loc>
-    <lastmod>2023-01-28T14:21:04.078Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/tutorials/pandas.html</loc>
+    <lastmod>2023-02-23T19:09:33.522Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</loc>
-    <lastmod>2023-01-28T14:21:04.798Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/tutorials/index.html</loc>
+    <lastmod>2023-02-23T19:09:33.898Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/index.html</loc>
-    <lastmod>2023-01-28T14:21:05.590Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/documentation/pandas.html</loc>
+    <lastmod>2023-02-23T19:09:34.222Z</lastmod>
   </url>
   <url>
-    <loc>https://craig-shenton.github.io/quarto-nhs-theme/about.html</loc>
-    <lastmod>2023-01-28T14:21:06.142Z</lastmod>
+    <loc>https://nhs-r-community.github.io/quarto-nhs-theme/documentation/index.html</loc>
+    <lastmod>2023-02-23T19:09:34.554Z</lastmod>
   </url>
 </urlset>

@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute to the docs",
+    "section": "",
+    "text": "git checkout -b <branch-name>\n\n\n\nTo the .qmd file add a YAML header with a title and subtitle.\n---\ntitle: Contribute to the docs\nsubtitle: \"How to add a new page to the documentations site using Quarto?\"\n---\n\n\n\nOpen the _quarto.yml configuration file and find the sidebar config code.\nsidebar:\n  - id: nav\n    style: \"floating\"\n    collapse-level: 3\n    align: left\n    contents:\nUnder the contents: object add a new section (if required), a string lable for your page, and a link to the .qmd file itself.\n- section: \"tutorials\"\n  contents:\n    - text: \"Reproducible Analytical Pipelines\"\n      file: tutorials/intro-to-rap.qmd\n\n\n\n\n\n\n\n\n\nRender Quarto before publishing\n\n\n\n\n\nRemember to render your changes locally using R-Studio (or VScode) before publishing\n\n\n\nCommit your changes locally\ngit commit -m 'Added new page to docs'\nThen push your changes to the remote branch\ngit push origin <branch-name>\nFinally, open a Pull Request (PR) https://github.com/nhs-r-community/quarto-nhs-theme/pulls"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Welcome to my new blog! I’m excited to share my thoughts, ideas, and experiences with you on this platform. This blog will be a place where I can share my passions and interests, as well as provide helpful information and insights on topics that I’m knowledgeable about.\nI’m passionate about many things, but some of the main topics that I’ll be writing about on this blog include technology, data science, and personal development. I’ll be sharing tips and tricks for using new technologies, discussing the latest trends and developments in the field of data science, and offering advice on how to improve your personal and professional skills.\nI hope that you’ll find my blog interesting and informative, and that you’ll come back often to read my latest posts. I welcome your feedback and suggestions, and I’m looking forward to connecting with you and engaging in meaningful discussions on this platform.\nThank you for visiting my blog, and I hope that you’ll enjoy what you read here. Happy reading!\nWritten by ChatGPT."
+  },
+  {
+    "objectID": "posts/update-23-01-27/index.html",
+    "href": "posts/update-23-01-27/index.html",
+    "title": "{quarto-nhs-theme} v0.2.0",
+    "section": "",
+    "text": "Moved all website files to the docs/ folder so that the root folder can be used for analytical code. (see nhspy-plotthedots for an example project)\nChanged the font to open-sans open font.\nAdded bootstrap icons.\nAdded blog fuction and giscus comments.\nAdded drop down menues to top bar\nAdded Quarto .css for hero banner and buttons\nAdded auto publish all .qmd files in tutorials/ and documentation/ folder\nUpdated website with a tutorial on how to install {quarto-nhs-theme}"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Under Development"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About {nhs-quarto-theme}",
+    "section": "",
+    "text": "Craig Robert Shenton, PhD author, maintainer."
+  },
+  {
+    "objectID": "about.html#licence",
+    "href": "about.html#licence",
+    "title": "About {nhs-quarto-theme}",
+    "section": "Licence",
+    "text": "Licence\nMIT License, see LICENSE.md"
+  },
+  {
+    "objectID": "about.html#citation",
+    "href": "about.html#citation",
+    "title": "About {nhs-quarto-theme}",
+    "section": "Citation",
+    "text": "Citation\nNHS-R Community nhs-quarto-theme (2023). At <https://github.com/nhs-r-community/quarto-nhs-theme>.\n@Manual{nhsquartotheme2023,\n  title  = {nhs-quarto-theme},\n  author = {NHS-R Community},\n  url = {https://github.com/nhs-r-community/quarto-nhs-theme},\n  year = {2023},\n}"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto NHS Theme",
@@ -7,11 +56,25 @@
     "text": "quarto-nhs-theme v0.2.0\n\nNHS theme for Quarto websites\n\nInstall Theme\n\n\n\n\n\n\n\n\nIt’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub Actions.\nThis is an example of a Quarto website with an NHS Theme — it is a really powerful way to create and share your work. You can communicate about your work using the same reproducible workflow you and your colleagues use for analyses.\nQuarto.org is the go-to place for full documentation and more tutorials For general guidance on how to use Quarto, please refer to the Quarto Tutorial site, and check out the R-Studio guide."
   },
   {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates",
+    "section": "",
+    "text": "{quarto-nhs-theme} v0.2.0\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 27, 2023\n\n\nCraig R Shenton\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tutorials/pandas.html",
+    "href": "tutorials/pandas.html",
+    "title": "Pandas",
+    "section": "",
+    "text": "Under Development"
+  },
+  {
     "objectID": "tutorials/index.html",
     "href": "tutorials/index.html",
     "title": "Install Theme",
     "section": "",
-    "text": "Note\n\n\n\nYou can also follow the GitHub guide to install the template to your own repository.\n\n\nGo to https://github.com/craig-shenton/quarto-nhs-theme and at the top right of the page there should be a green button that says Use this template > Create a new repository.\nUse the Owner drop-down menu, and select the account you want to own the repository.\nType a name for your repository, and an optional description.\nChoose a repository visibility. Either public for open-source/open-data work or private. See NHS Digital’s RAP community notes on how and when to publish your code in the open.\nIf using a personal account or your organisation allows GitHub Apps, and you want to enalbe comments, select giscus to enable comments. Note: you will also need to enable discussions in your repo settings for giscus to work.\nClick Create repository from template and we are ready to edit."
+    "text": "Note\n\n\n\nYou can also follow the GitHub guide to install the template to your own repository.\n\n\nGo to https://github.com/nhs-r-community/quarto-nhs-theme and at the top right of the page there should be a green button that says Use this template > Create a new repository.\nUse the Owner drop-down menu, and select the account you want to own the repository.\nType a name for your repository, and an optional description.\nChoose a repository visibility. Either public for open-source/open-data work or private. See NHS Digital’s RAP community notes on how and when to publish your code in the open.\nIf using a personal account or your organisation allows GitHub Apps, and you want to enalbe comments, select giscus to enable comments. Note: you will also need to enable discussions in your repo settings for giscus to work.\nClick Create repository from template and we are ready to edit."
   },
   {
     "objectID": "tutorials/index.html#step-2",
@@ -25,7 +88,7 @@
     "href": "tutorials/index.html#edit-the-quarto.yml-file",
     "title": "Install Theme",
     "section": "Edit the quarto.yml file",
-    "text": "Edit the quarto.yml file\nOpen the quarto.yml file in your new repository and change craig-shenton/quarto-nhs-theme to {your-user-name}/{your-project-name}.\nYou can also delete links to any pages you don’t need here, including the top and side bar menus.\nIf you want to change the bootstrap icons in the top bar menu you can change the icon perameter icon: \"box-seam\" for example, with any bootstrap icon available here: https://icons.getbootstrap.com/"
+    "text": "Edit the quarto.yml file\nOpen the quarto.yml file in your new repository and change nhs-r-community/quarto-nhs-theme to {your-user-name}/{your-project-name}.\nYou can also delete links to any pages you don’t need here, including the top and side bar menus.\nIf you want to change the bootstrap icons in the top bar menu you can change the icon perameter icon: \"box-seam\" for example, with any bootstrap icon available here: https://icons.getbootstrap.com/"
   },
   {
     "objectID": "tutorials/index.html#step-3",
@@ -70,8 +133,8 @@
     "text": "Setup GitHub.io pages\nOn your repo page on GitHub, go to settings > pages > source and click deploy from branch. Below that change the branch from none to gh_pages. In approx 60 seconds your new website should be deployed at https://{user-name}.github.io/{project-name}.\nWhen you push any changes to the docs/ folder from now on a tool called GitHub actions will essentially automate the preceding steps, saving a lot of time clicking. See the GitHub Actions docs for full details."
   },
   {
-    "objectID": "tutorials/pandas.html",
-    "href": "tutorials/pandas.html",
+    "objectID": "documentation/pandas.html",
+    "href": "documentation/pandas.html",
     "title": "Pandas",
     "section": "",
     "text": "Under Development"
@@ -82,68 +145,5 @@
     "title": "Documentation",
     "section": "",
     "text": "Under Development"
-  },
-  {
-    "objectID": "documentation/pandas.html",
-    "href": "documentation/pandas.html",
-    "title": "Pandas",
-    "section": "",
-    "text": "Under Development"
-  },
-  {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "Frequently Asked Questions",
-    "section": "",
-    "text": "Under Development"
-  },
-  {
-    "objectID": "updates.html",
-    "href": "updates.html",
-    "title": "Updates",
-    "section": "",
-    "text": "{quarto-nhs-theme} v0.2.0\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 27, 2023\n\n\nCraig R Shenton\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\nMy First Post\n\n\n\n\n\n\nDec 11, 2022\n\n\nCraig R Shenton\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "Contribute to the docs",
-    "section": "",
-    "text": "git checkout -b <branch-name>\n\n\n\nTo the .qmd file add a YAML header with a title and subtitle.\n---\ntitle: Contribute to the docs\nsubtitle: \"How to add a new page to the documentations site using Quarto?\"\n---\n\n\n\nOpen the _quarto.yml configuration file and find the sidebar config code.\nsidebar:\n  - id: nav\n    style: \"floating\"\n    collapse-level: 3\n    align: left\n    contents:\nUnder the contents: object add a new section (if required), a string lable for your page, and a link to the .qmd file itself.\n- section: \"tutorials\"\n  contents:\n    - text: \"Reproducible Analytical Pipelines\"\n      file: tutorials/intro-to-rap.qmd\n\n\n\n\n\n\n\n\n\nRender Quarto before publishing\n\n\n\n\n\nRemember to render your changes locally using R-Studio (or VScode) before publishing\n\n\n\nCommit your changes locally\ngit commit -m 'Added new page to docs'\nThen push your changes to the remote branch\ngit push origin <branch-name>\nFinally, open a Pull Request (PR) https://github.com/craig-shenton/quarto-nhs-theme/pulls"
-  },
-  {
-    "objectID": "posts/update-23-01-27/index.html",
-    "href": "posts/update-23-01-27/index.html",
-    "title": "{quarto-nhs-theme} v0.2.0",
-    "section": "",
-    "text": "Moved all website files to the docs/ folder so that the root folder can be used for analytical code. (see nhspy-plotthedots for an example project)\nChanged the font to open-sans open font.\nAdded bootstrap icons.\nAdded blog fuction and giscus comments.\nAdded drop down menues to top bar\nAdded Quarto .css for hero banner and buttons\nAdded auto publish all .qmd files in tutorials/ and documentation/ folder\nUpdated website with a tutorial on how to install {quarto-nhs-theme}"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Welcome to my new blog! I’m excited to share my thoughts, ideas, and experiences with you on this platform. This blog will be a place where I can share my passions and interests, as well as provide helpful information and insights on topics that I’m knowledgeable about.\nI’m passionate about many things, but some of the main topics that I’ll be writing about on this blog include technology, data science, and personal development. I’ll be sharing tips and tricks for using new technologies, discussing the latest trends and developments in the field of data science, and offering advice on how to improve your personal and professional skills.\nI hope that you’ll find my blog interesting and informative, and that you’ll come back often to read my latest posts. I welcome your feedback and suggestions, and I’m looking forward to connecting with you and engaging in meaningful discussions on this platform.\nThank you for visiting my blog, and I hope that you’ll enjoy what you read here. Happy reading!\nWritten by ChatGPT."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About {nhs-quarto-theme}",
-    "section": "",
-    "text": "Craig Robert Shenton, PhD author, maintainer."
-  },
-  {
-    "objectID": "about.html#licence",
-    "href": "about.html#licence",
-    "title": "About {nhs-quarto-theme}",
-    "section": "Licence",
-    "text": "Licence\nMIT License, see LICENSE.md"
-  },
-  {
-    "objectID": "about.html#citation",
-    "href": "about.html#citation",
-    "title": "About {nhs-quarto-theme}",
-    "section": "Citation",
-    "text": "Citation\nShenton, CR. nhs-quarto-theme (2023). At <https://github.com/craig-shenton/quarto-nhs-theme>.\n@Manual{nhsquartotheme2023,\n  title  = {nhs-quarto-theme},\n  author = {Craig R Shenton},\n  url = {https://github.com/craig-shenton/quarto-nhs-theme},\n  year = {2023},\n}"
   }
 ]

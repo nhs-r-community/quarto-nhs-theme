@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Quarto NHS Theme</title>
-<link>https://craig-shenton.github.io/quarto-nhs-theme/updates.html</link>
-<atom:link href="https://craig-shenton.github.io/quarto-nhs-theme/updates.xml" rel="self" type="application/rss+xml"/>
+<link>https://nhs-r-community.github.io/quarto-nhs-theme/updates.html</link>
+<atom:link href="https://nhs-r-community.github.io/quarto-nhs-theme/updates.xml" rel="self" type="application/rss+xml"/>
 <description>NHS Theme</description>
-<generator>quarto-1.2.313</generator>
+<generator>quarto-1.2.335</generator>
 <lastBuildDate>Fri, 27 Jan 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>{quarto-nhs-theme} v0.2.0</title>
   <dc:creator>Craig R Shenton</dc:creator>
-  <link>https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</link>
+  <link>https://nhs-r-community.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</link>
   <description><![CDATA[ 
 
 
@@ -29,7 +29,7 @@
 <li>Added drop down menues to top bar</li>
 <li>Added Quarto <code>.css</code> for hero banner and buttons</li>
 <li>Added auto publish all <code>.qmd</code> files in <code>tutorials/</code> and <code>documentation/</code> folder</li>
-<li>Updated website with a <a href="https://craig-shenton.github.io/quarto-nhs-theme/tutorials/">tutorial</a> on how to install {quarto-nhs-theme}</li>
+<li>Updated website with a <a href="https://nhs-r-community.github.io/quarto-nhs-theme/tutorials/">tutorial</a> on how to install {quarto-nhs-theme}</li>
 </ol>
 
 
@@ -37,14 +37,14 @@
 
  ]]></description>
   <category>news</category>
-  <guid>https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</guid>
+  <guid>https://nhs-r-community.github.io/quarto-nhs-theme/posts/update-23-01-27/index.html</guid>
   <pubDate>Fri, 27 Jan 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://craig-shenton.github.io/quarto-nhs-theme/posts/update-23-01-27/thumbnail.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://nhs-r-community.github.io/quarto-nhs-theme/posts/update-23-01-27/thumbnail.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Craig R Shenton</dc:creator>
-  <link>https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/index.html</link>
+  <link>https://nhs-r-community.github.io/quarto-nhs-theme/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
 
@@ -59,9 +59,9 @@
 
  ]]></description>
   <category>news</category>
-  <guid>https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/index.html</guid>
+  <guid>https://nhs-r-community.github.io/quarto-nhs-theme/posts/welcome/index.html</guid>
   <pubDate>Sun, 11 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://craig-shenton.github.io/quarto-nhs-theme/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://nhs-r-community.github.io/quarto-nhs-theme/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

@@ -1,1 +1,1 @@
-Sitemap: https://craig-shenton.github.io/quarto-nhs-theme/sitemap.xml
+Sitemap: https://nhs-r-community.github.io/quarto-nhs-theme/sitemap.xml
