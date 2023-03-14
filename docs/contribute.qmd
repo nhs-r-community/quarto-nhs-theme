@@ -61,4 +61,4 @@ Then push your changes to the remote branch
 git push origin <branch-name>
 ```
 
-Finally, open a Pull Request (PR) [https://github.com/craig-shenton/quarto-nhs-theme/pulls](https://github.com/craig-shenton/quarto-nhs-theme/pulls)
+Finally, open a Pull Request (PR) [https://github.com/nhs-r-community/quarto-nhs-theme/pulls](https://github.com/nhs-r-community/quarto-nhs-theme/pulls)
