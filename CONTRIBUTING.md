@@ -1,13 +1,8 @@
 # Contributing
 
-Thanks for your interest in contributing to the demos and how-tos repository.
+Thanks for your interest in contributing to the Quarto NHS theme.
 
-The NHS-R Community welcomes contributions in the form of:
-
-- Bug fixes and improvements to existing demos and how-tos
-- New demos and how-tos
-
-Full training sessions are out of scope for this repository, and should be contained in separate repositories (e.g. the [one-day Shiny training](https://github.com/nhs-r-community/shiny-training)).
+The NHS-R Community welcomes contributions in the form of bug fixes and improvements.
 
 ## Contributing workflow
 
