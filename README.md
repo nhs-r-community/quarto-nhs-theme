@@ -2,10 +2,6 @@
 
 # quarto-nhs-theme
 
-<a href="https://join.slack.com/t/nhsrcommunity/shared_invite/zt-1e9394oqf-jHVOUf_8ZmMqGjGWsfPllw">
-<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
-</a>
-
 ## About
 
 An NHS Theme for deploying Quarto websites to GitHub.io pages with automated GitHub action.
